@@ -1,0 +1,5428 @@
+fileFormatVersion: 2
+guid: 2e120b159873b9944ad3b1416699f676
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ground(NoCollision)_0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8620c19e126df7b4e9f9d91f8b4eccb6
+      internalID: 1294597367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b0c1b77dea4ec47a97561557f40b3a
+      internalID: -829021724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_3
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f300d01034157b408f7e874c9c6ff56
+      internalID: 1761423855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_4
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82bd4e31f240f7b4a9dee76bdb291da7
+      internalID: -560854448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_5
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4eda5a571d8d34b892969b71259635
+      internalID: -630779980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4063e55b8db85b418b38e5144084ed6
+      internalID: 1954703413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_8
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 350
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6becc2c1bbe25eb4aae8bea0cc492568
+      internalID: -223180125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_9
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 350
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc2f028e9517ad84681864c20f869269
+      internalID: 364155150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_10
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 350
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5d5224a432c15478fb6c4d6d310dfb
+      internalID: -649460423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_11
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 350
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fad09b82b805d459668db0985d5cb4
+      internalID: 458331399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_12
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5832b83b14596be43a9b60a6a7912df2
+      internalID: -1378125635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_13
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb870de569956894ba9b75aef957f934
+      internalID: -1321058723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_14
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d801ba83b2d08b94cae8e5656857ce1f
+      internalID: 697327672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_15
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 351
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8496d46ad4ea63f4ea4af14277c8799f
+      internalID: 1404913332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_17
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 329
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b12a81ac7c531a4c8a1269640d8bc3f
+      internalID: -1180039596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_18
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 329
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdefb743da3c8694e9638c75bef451c5
+      internalID: 25176691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_24
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 335
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06dd300777c9ee44798ec379554385dc
+      internalID: 1280373465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_25
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 335
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b75b11839996a4c9251b098143d5cd
+      internalID: 318173871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_26
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 335
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e29444c24bd34f4b85290dbb5e443e4
+      internalID: 1009717593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_27
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 335
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8033237e4dfce64bb3fc42fc5daf512
+      internalID: -376951370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_29
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 313
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c7907aa7fafdc428f832f582837d06
+      internalID: -378568622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_30
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 313
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 684c24139b3c0844fb81af563387f73b
+      internalID: 1315899543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_32
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 329
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9ffd68fd816fb47a95025688317ee3
+      internalID: -325112742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_33
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 329
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b633e2e71fc3944283052dcc6f5d95c
+      internalID: 270864777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_35
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 319
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e617ad43e086e4e8901c922d9ba10c
+      internalID: 2058257396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_36
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 319
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 173dd8f9a75a8e743841bfee9aadea2d
+      internalID: 53109265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_37
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 319
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbcf75ac4670324f98d30ac53b6dba4
+      internalID: -1210861822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_38
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 319
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3f210a4653cbfa44b901620ee3d5f3d
+      internalID: -1996420646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_40
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09185e1a41c2c6a47b8bfd6bcf0d801d
+      internalID: 1376705435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_41
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27912d1b2b729948a43a227775c6e36
+      internalID: 1876332509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_43
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 313
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d573708d14ab53949a15a4468f46d816
+      internalID: -1825606523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_44
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 313
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e65cbe51fa56664aa6980497f21a5a2
+      internalID: -264828684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_46
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 303
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eede88368aba03843b9b69211c0e8f06
+      internalID: -1640648112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_47
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 303
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4710c469fe4ae8d42bc84c7e0b842d8b
+      internalID: -735841623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_48
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 303
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd05877692641e347b33128b71d3e58d
+      internalID: 1176482537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_49
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 303
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3ee24226508464abbf5f187429d2af
+      internalID: -1013879747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_57
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981cc5f24d2338248a2f0b85b43c8811
+      internalID: -1376099702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_58
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 297
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0d59b58fbb4204196fe633bed4665e
+      internalID: -1122202799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_60
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 287
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1b0072790aba44586155a567b35149
+      internalID: 650159242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_61
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 287
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd65ccf5ab024bb418543d674cf95fb1
+      internalID: -1765280384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_62
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 287
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ab0b1e22c7def9458547e8080fd3036
+      internalID: 1592616813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_63
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 287
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd679da155cf0304186fd8d7a85ed722
+      internalID: -1477043618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_64
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 287
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c79d53020d7074ba711ca09af329b1
+      internalID: 193578424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_65
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 287
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d8f002473aa844cbbe512a0e90d7f2
+      internalID: -612818314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_66
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 287
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0627bc71e42aae5498709cfddb762f8f
+      internalID: 822787822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_67
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 287
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9860e44a6ab2343be4c1113dd4fa68
+      internalID: -8409328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_70
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cad1051c273724ca0d114b9ed70ba8
+      internalID: 648588192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_71
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 275
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b0a81c0272d4814fb1f849355695cf8
+      internalID: 776590644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_73
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 274
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c280f218f107dc446ad6c94ddb6b49ff
+      internalID: 10168656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_74
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 274
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e17cef12dbae5624d9106e01c49cca8e
+      internalID: 363719734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_75
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 274
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e485d3a2c206574887f373afda0c68e
+      internalID: -1007911018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_76
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 274
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f284602a39e98428109a9f5b039861
+      internalID: 654543520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_78
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 271
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65eb49ea53b4904b8ac2e5fbe6ca7e5
+      internalID: -83464003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_79
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 271
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b3cc8408710e747bd45abf390744d8
+      internalID: -1116135813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_80
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 271
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88b08a1d7d616048a5af3a24ae272cd
+      internalID: 260926907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_81
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 271
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c8a488625255d49a4427f02694d013
+      internalID: -1771928101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_82
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 271
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e746f1682787943bf33f8510fdbe9c
+      internalID: 2105510019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_83
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 271
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9807c13e3da39764cab21cb9b59212a4
+      internalID: -1227071103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_84
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 271
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b3b5fbf8c5438247bf1a855b7de3255
+      internalID: -1385230478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_85
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 271
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c1c5eabec06bc488541331f56f5809
+      internalID: 524797947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_88
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 259
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ddfa74d23bd7e40b87b3311422fce2
+      internalID: 291614499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_89
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 259
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcffb8ff94fd7df48bcaa99b6777f78f
+      internalID: -620588920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_91
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd9c374ffedbe348baaa91a7e1b341e
+      internalID: 1618508467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_92
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616df6da598efd345acb9f38a5bc3949
+      internalID: -1385151624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_93
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017944d3ef6175b4b91876f7988c8a47
+      internalID: -1864611232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_95
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 258
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effa051e2780b344f903d634a1dfd8a4
+      internalID: 1411425221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_96
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 255
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dee541773fe6d954e9b6eb38ea5a054b
+      internalID: 935948306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_97
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 255
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b6015d5f4f65e49b7bd018d3c9ffda
+      internalID: -1622699624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_98
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 255
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c7c6bbb52fefa4c941a3bf1bc3a597
+      internalID: 501324651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_99
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 255
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f20c63186d3b7446bbe08dd9914ac51
+      internalID: -1276585884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_100
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 255
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebbefa3ef7c9024a911361c2c96eeba
+      internalID: 357255872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_101
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 255
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1e2c08d89e9b443b10c777b687b155
+      internalID: 1354378352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_102
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 255
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6ae3b929bb44547aad3bf0199cf79d
+      internalID: 404812523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_103
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 255
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f85412f64aa64e4ba7f48acf748788d
+      internalID: 1427279427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_106
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b2e142abe37ba47bf04c5c968aae6d
+      internalID: -138572937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_107
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 243
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b54f774be77c5499a467ed181255b0
+      internalID: -175027094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_109
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 242
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648420c91b83d644cae47d11148888d2
+      internalID: -1807225006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_110
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 242
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b105f3c8cba5b3642b6212778fc65cce
+      internalID: 1157221577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_111
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 242
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc2a38bc28f4a64d853ff8f112b6afc
+      internalID: 761012745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_112
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 242
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf168523df6ee64f9587abe75d9c8e8
+      internalID: 24292962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_114
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458cf83bd32c7344d92745fadf4ec29e
+      internalID: 161969957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_115
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c1723ef1a04d4f41b0a57032a5b3fa3
+      internalID: 271305558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_116
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b5c98a6af56e441a0543e287df1800
+      internalID: -679585517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_117
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 189df069d7ea0a4458c2e33029e78c1c
+      internalID: 739669155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_118
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f98c0a953f896440b9e3626442abe94
+      internalID: -1850454175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_119
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3934f1b77ef2344a8eee7666a8e150
+      internalID: 1870268039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_120
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c97237ccf328c0942858a7ec73e3fd4f
+      internalID: 2143235718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_121
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335a8d5825a6b7b48a978b137afef016
+      internalID: 1312839090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_123
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 220
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2399361d092e44a45b7f570ad47a8bdc
+      internalID: 405466742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_124
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 220
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5681036862685d547b0f7917ff2e62ba
+      internalID: 1815911939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_125
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 220
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70cda709f5100e479060cd6e9507960
+      internalID: -1001191450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_126
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 220
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289d9a78d135a0347b123f33930ffd41
+      internalID: -752866107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_127
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 140
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618e08852d43f724392380c4b2aba670
+      internalID: 784173864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_136
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 211
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c1ce1e73a07dc4487358d35208928f
+      internalID: 1827135195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_138
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591d4b467d0096f4cac790733aa9343e
+      internalID: -425508711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_139
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54dc8e0243105e24cad1dc721aa2e66f
+      internalID: -1568590888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_140
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea73c84cb8b73f45bbf0f556a13be96
+      internalID: 45152530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_141
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 207
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af6803bf17a545409b5b3c168c28ed6
+      internalID: 1307694798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_142
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2d5c251a9d52d48b3c50186739f348
+      internalID: 589504019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_143
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc81ca675004e234dbcf654f0f855071
+      internalID: 1853923240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_144
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06178a83a2de024cb95f6d819c53c42
+      internalID: -203444591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_145
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68edfc1c3c3767d48a3a71a88710415f
+      internalID: -555961227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_146
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eabbd160883d5a46b11dc8ac4e3750f
+      internalID: 463800620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_148
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db99104673592514090760cd1225ec2f
+      internalID: -1629083857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_149
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8b5500f83c0b8b4fb576a83407d07fa
+      internalID: 1430933892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_150
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f051e050d5e7d49b71763bc5e5deb3
+      internalID: 913264660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_151
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 204
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8359edbc81654a64bbbe36808ec3494b
+      internalID: 1082104663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_152
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 211
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363ef8819630a364ba97bf235ff50cbf
+      internalID: 788377068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_153
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 195
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7186e807b999902419cc602de8e5207b
+      internalID: -1400206749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_154
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 211
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c0d8d60b7f38442949bd10e65a2361
+      internalID: 404702862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_155
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 211
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe24f58713d75354393f374607f1ae08
+      internalID: -804839083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_156
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 211
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34278551988fabe46a672762d3c96375
+      internalID: -2075245747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_159
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57042602fdde3c840b25856817fecc3c
+      internalID: 952411743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_160
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791e0680f53834a4a9ac9c458a7d3939
+      internalID: 1495239630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_161
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a786742a442ebf468b881e5b4dfbecd
+      internalID: 1630768737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_162
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 191
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85153b33ef782a4bafcc860ab2471f7
+      internalID: -17137656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_163
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999417ad54658ef4488f8a059b404a94
+      internalID: 1274952717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_164
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e7a595248f10f4bbdf2a5ad1ed9c7a
+      internalID: -144654095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_165
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc41efc0082e5f4dbd8cbc84f838092
+      internalID: 1927835960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_168
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3fffa24776c934e8a7eb57f40f28a6
+      internalID: -2113525813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_169
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d064e0eb6379d344ac51f633146c1bc
+      internalID: 380937380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_170
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a0ec2e24ce66249abf6edd3a847e98
+      internalID: -282444212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_171
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182e48ec09bda0a449b5b3450f0ec294
+      internalID: 28186233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_172
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 195
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be40d751098cfb4ca27876c66eee3fe
+      internalID: 739360202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_173
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50efb53363a96d947bbb98541f0da9f6
+      internalID: 666005629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_174
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 195
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebbfdaa19d1615439ac1aeb3a86f153
+      internalID: -1235231633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_175
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 195
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb9c4ebe738867429f9f3dcccbae9f1
+      internalID: 1010317003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_176
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 195
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eea560738c822044a718cc7f72b9d5c
+      internalID: -5580043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_179
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e60a1d6c52cc44086f2d52d6f3ac34
+      internalID: 1223040620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_180
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a5e5cf64f914745ac4461cac141c13
+      internalID: 1986632186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_181
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03da8ee8238690a4aa509063a40331a1
+      internalID: 1649910906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_182
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e50ebd82a6dc86488bfcf65bf948016
+      internalID: 2052156568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_183
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1f820887bf96e48b06140c53ba6f2d
+      internalID: 1125779598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_184
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23b81755dc10ad43a29c249a7bed4a4
+      internalID: -1752232583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_185
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef88d79e2e27874aa50e794f6daf40c
+      internalID: -24779625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_186
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d5058e38626954db25c20a29175087
+      internalID: 1885413182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_187
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 179
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6bf54935f3cf841819eb9802ad17c6
+      internalID: -780889004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_188
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 147
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6423e66afbd5b04295581276d35a147
+      internalID: -48098191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_189
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 179
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefab510f78745048ba35514bcc17dc3
+      internalID: 1213716312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_190
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 179
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff1e242028f31d41b0dea8e740931b3
+      internalID: -1768587920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_191
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 179
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db5e92d1bfb3984dbb64471aa7261d7
+      internalID: -66277687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_192
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 159
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c9d0bae59de0c40b772d8eda885aaa
+      internalID: 660399740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_193
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 159
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfdd5053e95411d4f91229af53b9b833
+      internalID: -1572757503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_194
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405c6e2d815f23240b6bf8516444cb18
+      internalID: -193759910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_195
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f999e170aaa9f488f0cd6bcad1af9b
+      internalID: -492160573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_196
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 156
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb862300519205848b199ff8aa7f04de
+      internalID: 1817154035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_197
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbf613f005f22e4390d24670fec8689
+      internalID: 1869293566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_198
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b7bf009bd909a4cb4d319c867d2b35
+      internalID: -317633897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_199
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 175
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5d089b881e21b14084233004b1cc5d3
+      internalID: 1849959470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_200
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 143
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6e41a3462e86748bf8e6cd8537b227
+      internalID: -804055804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_201
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 143
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6041c9e0ab34840b553e194fa77de9
+      internalID: 987246793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_203
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 140
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b13eb633adbf543a7de075464e0769
+      internalID: 2076416033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_204
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 140
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8cdbc8ec6fe9164a9c8e75aaa8b216d
+      internalID: -789884792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_205
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 140
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0869b6f97f7817499513bcb87c279d0
+      internalID: -556980054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_206
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b245c518a09c8d34f84b66a2daf64ad4
+      internalID: 1698891579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_207
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 147
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12965dd74a4a1034488facf59d0c8a01
+      internalID: -339182236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_216
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2846f8a101ffb47becd966e8ad5009
+      internalID: 1071477651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_217
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 147
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22adfe3df97757141b53f8ce480495a8
+      internalID: 1723181332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_218
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 131
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae202fcc25568344bb943b50eb2ea616
+      internalID: 2008382193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_219
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82273baa48315fc428ba2e86f323ae76
+      internalID: -2128519623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_220
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78ad246b676bab4faec2b652680af01
+      internalID: -505128061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_221
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a099db1893967f4386e6f2d442cc983
+      internalID: -1008428954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_222
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e567469a9374724a81b44ee1decf8b5
+      internalID: -615156239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_223
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d504c9905b492e445b7b6077d27e7465
+      internalID: 947019576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_224
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e808c00f8010e4a40a9a28c70f88a920
+      internalID: 1819326270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_225
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7817d299dfca0304dace62f9aeec2161
+      internalID: 2095798157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_226
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 93
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840e436d1b5919747a3782b60bf1ee55
+      internalID: -1830913718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_228
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 86
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c962046d25ad5f4e8f0cb38836a4bd9
+      internalID: 175801019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_229
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 86
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7717b5192977b734cb0d888ba76dfc74
+      internalID: -760455713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_230
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 86
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3243cfb1fef66854191c6c2b77508eb6
+      internalID: -1852502094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_231
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 86
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e77399e20fdaf46a960b5cdc6d2fe0
+      internalID: -1945693283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_232
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45baf0914f2d4a9458988a70fe40602f
+      internalID: 1517764510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_233
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20538af1cd336645926816ada2f08ff
+      internalID: 240614087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_234
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39c8f4bb0cd95745ad5cebba116aee5
+      internalID: -1767259290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_235
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 91
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8cb7b2f554bc54ea71d10a2de402df
+      internalID: -1377150186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_236
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 94
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652c11136369d4346a65307f78f40a6a
+      internalID: -1355727215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_237
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 94
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771a6db46439678449296f438a6007f2
+      internalID: -368422799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_238
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 94
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4a034e8ecea9d4fa4149bd231cae0c
+      internalID: 693708203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_239
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 94
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77218129b44c9b34589bb58e75acf002
+      internalID: -1480111274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_240
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd25844421b4c1d4db48a3da424fe0f3
+      internalID: 1455719547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_241
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 77
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e42e9f9ccd76724d905b1bb2efd845a
+      internalID: -639085594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_242
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 77
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a93661646f2674f98c66022ce77e9a
+      internalID: -383719728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_243
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 77
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ecab3aaf4cd6a6498eea16f06e32dcb
+      internalID: -280419073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_244
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 77
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c7a0d7ad5de004e8f857ae4f42c9f5
+      internalID: 1165423263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_245
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 77
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd9da808e541dd469008967b8c661da
+      internalID: -1445121802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_246
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 118
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a049ca41507054e98ece3db53104f7
+      internalID: -1624207096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_247
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 70
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57915995bfe2c5743ab3bd55c6a51100
+      internalID: 151092417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_248
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 70
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd2c993df6880e47ad31cd52ca81859
+      internalID: -1280289269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_249
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 70
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d8d4ae9259cfb43b5365fe7f3e82a9
+      internalID: -2053500945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_251
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a6184bd4a82a0479eac74f68342f7d
+      internalID: -113777770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_252
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ca37eca6c4b6a4e85e74e30bd8ad37
+      internalID: -1558920612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_253
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b546038f99e8a4c9ed6b1ac75f1cf3
+      internalID: 1636176377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_254
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 75
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 934a1d2bda9f43649ad913101332076e
+      internalID: -612058820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_256
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6ac1932024fe8459ef9c5f322ab4e2
+      internalID: 1371647033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_257
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d69901144493243b3b452038f5bffa
+      internalID: 63383139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_258
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663452e64d5ee70438a105fa70d8e87a
+      internalID: 1530297850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_259
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ebafcee193e8c742ae45203af22d85b
+      internalID: -818487828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_260
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 78
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065a077cbc0347845a3d7e9a12f79026
+      internalID: 1077813411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_261
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 94
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a76823472b6b1444aafc6a7197d73bc3
+      internalID: -1557861285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_262
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b1e9b350427b04784a29babda885a1
+      internalID: 1894132763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_263
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 61
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b342a08c702be4e81b01ebf17c406f
+      internalID: -1069799551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_264
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 61
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ad7678b2c6c1746b57918eeb11c944
+      internalID: 1361901111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_265
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 54
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afbbdee3a2bd3f49bc0259a219a27af
+      internalID: -1378279656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_266
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 54
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627fc0afedae5bc4b9308ab3c8dde2a0
+      internalID: 760651747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_267
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c911e9e8fc69e40a8b5a70aa470756
+      internalID: -1416239512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_268
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322af99abbee1c6419494796ccfdff33
+      internalID: 1806768117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_269
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5bfeb818286ee49a5ddd74077ebeed
+      internalID: -357355102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_270
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 59
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff637fd2b3313b349aadcd21e988e819
+      internalID: 887629843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_271
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 62
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a018597f8dec394ca3e038efac60c60
+      internalID: 365076322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_272
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 62
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ae39b01edad74488a30fcda104565e
+      internalID: -378092470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_273
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 62
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582c75ca30231b04581fab750d0af62c
+      internalID: 1638968835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_274
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 62
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4489237bd1120c45944bf9c1ab61831
+      internalID: -1771127812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_275
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 62
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fb45e644de0564f88757c3798e7bcc
+      internalID: -1590630575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_276
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 45
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980e2b3c219452940b1a10d3c1c21404
+      internalID: 429505043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_277
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 45
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7ccab7fbf681544a8627adacb921ae
+      internalID: -1379295579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_278
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 38
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac79e4c99ad16c4687f388cb682605d
+      internalID: -1854941874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_279
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d53d6c4b9574546be5f933ca3ac1fa
+      internalID: -1904349727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_280
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdd53cbdedff0e40b9f767329a0d994
+      internalID: 585064910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_281
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1654eb943740da040974a968f91e7c67
+      internalID: -4326015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_282
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd94492bfe803346a8b8a325114789b
+      internalID: 83470630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_283
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 29
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1044d612b477564aa38d1816b0f789e
+      internalID: -1951218358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_284
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0136b8e47cb35aa4383518ba77dd4b24
+      internalID: 1301467007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_285
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 22
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa1e237c0fc9d043bd14bae55884651
+      internalID: -1269039823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_286
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b47bb841b6913c34184aee72fd319aac
+      internalID: -361200882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_287
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 27
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 670b961a3efff6d49a1feb6cec61c587
+      internalID: 212544222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_288
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 43
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06aec56f2e9fe014aba51b09a56bdd32
+      internalID: 867455610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_289
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583193fbd176aae4bb9d098326efc45c
+      internalID: -515899703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_290
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 30
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e553375c5c2c0f742b8be6761c153bcf
+      internalID: 1621228880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_291
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121e6c8b73684d84da0f553e8d59ca62
+      internalID: 1537223851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_292
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed03297c7f8c0641bce8e72cd9e88d1
+      internalID: -300471017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_293
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 38
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78a5242c7a6a0f489f74f8ec8a0e4ec
+      internalID: -159681510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_298
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46f3d1de074041341b6ffc2efd2069d8
+      internalID: 1140403262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_299
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8a3d359c0d38044b5255f2a9134ee8
+      internalID: -209132919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_300
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 14
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90667a938df24da40a8bc76ebbd909f3
+      internalID: -649411986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_302
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 46
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67e91c901f5e284b8cd474e0f3d5325
+      internalID: -904940739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_2
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 179
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af5425265a7126843a070d3da5cabd13
+      internalID: 713540146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ground(NoCollision)_7
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 163
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be95f563e7453743b0ec4e835ff6705
+      internalID: 1605984226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Ground(NoCollision)_255: -701657197
+      Ground(NoCollision)_153: -1400206749
+      Ground(NoCollision)_199: 1849959470
+      Ground(NoCollision)_178: 1254452548
+      Ground(NoCollision)_148: -1629083857
+      Ground(NoCollision)_76: 654543520
+      Ground(NoCollision)_88: 291614499
+      Ground(NoCollision)_81: -1771928101
+      Ground(NoCollision)_40: 1376705435
+      Ground(NoCollision)_269: -357355102
+      Ground(NoCollision)_95: 1411425221
+      Ground(NoCollision)_129: 1374102726
+      Ground(NoCollision)_106: -138572937
+      Ground(NoCollision)_119: 1870268039
+      Ground(NoCollision)_299: -209132919
+      Ground(NoCollision)_181: 1649910906
+      Ground(NoCollision)_56: 966322208
+      Ground(NoCollision)_165: 1927835960
+      Ground(NoCollision)_229: -760455713
+      Ground(NoCollision)_96: 935948306
+      Ground(NoCollision)_190: -1768587920
+      Ground(NoCollision)_32: -325112742
+      Ground(NoCollision)_145: -555961227
+      Ground(NoCollision)_193: -1572757503
+      Ground(NoCollision)_279: -1904349727
+      Ground(NoCollision)_79: -1116135813
+      Ground(NoCollision)_7: 1605984226
+      Ground(NoCollision)_102: 404812523
+      Ground(NoCollision)_139: -1568590888
+      Ground(NoCollision)_104: -942161815
+      Ground(NoCollision)_36: 53109265
+      Ground(NoCollision)_78: -83464003
+      Ground(NoCollision)_127: 784173864
+      Ground(NoCollision)_42: -1298783708
+      Ground(NoCollision)_250: -2126661768
+      Ground(NoCollision)_240: 1455719547
+      Ground(NoCollision)_235: -1377150186
+      Ground(NoCollision)_72: 1404001401
+      Ground(NoCollision)_49: -1013879747
+      Ground(NoCollision)_92: -1385151624
+      Ground(NoCollision)_156: -2075245747
+      Ground(NoCollision)_21: -1497332391
+      Ground(NoCollision)_204: -789884792
+      Ground(NoCollision)_218: 2008382193
+      Ground(NoCollision)_208: 1791668931
+      Ground(NoCollision)_201: 987246793
+      Ground(NoCollision)_146: 463800620
+      Ground(NoCollision)_100: 357255872
+      Ground(NoCollision)_173: 666005629
+      Ground(NoCollision)_272: -378092470
+      Ground(NoCollision)_137: 1964548959
+      Ground(NoCollision)_85: 524797947
+      Ground(NoCollision)_124: 1815911939
+      Ground(NoCollision)_263: -1069799551
+      Ground(NoCollision)_254: -612058820
+      Ground(NoCollision)_14: 697327672
+      Ground(NoCollision)_226: -1830913718
+      Ground(NoCollision)_285: -1269039823
+      Ground(NoCollision)_69: 351191028
+      Ground(NoCollision)_223: 947019576
+      Ground(NoCollision)_188: -48098191
+      Ground(NoCollision)_217: 1723181332
+      Ground(NoCollision)_65: -612818314
+      Ground(NoCollision)_295: 1052467669
+      Ground(NoCollision)_221: -1008428954
+      Ground(NoCollision)_63: -1477043618
+      Ground(NoCollision)_271: 365076322
+      Ground(NoCollision)_61: -1765280384
+      Ground(NoCollision)_147: 487355467
+      Ground(NoCollision)_86: -2045795007
+      Ground(NoCollision)_192: 660399740
+      Ground(NoCollision)_29: -378568622
+      Ground(NoCollision)_278: -1854941874
+      Ground(NoCollision)_196: 1817154035
+      Ground(NoCollision)_297: -796997011
+      Ground(NoCollision)_84: -1385230478
+      Ground(NoCollision)_17: -1180039596
+      Ground(NoCollision)_3: 1761423855
+      Ground(NoCollision)_177: 304526681
+      Ground(NoCollision)_230: -1852502094
+      Ground(NoCollision)_203: 2076416033
+      Ground(NoCollision)_300: -649411986
+      Ground(NoCollision)_50: 1162591612
+      Ground(NoCollision)_133: 1012938769
+      Ground(NoCollision)_20: -1403100462
+      Ground(NoCollision)_144: -203444591
+      Ground(NoCollision)_24: 1280373465
+      Ground(NoCollision)_151: 1082104663
+      Ground(NoCollision)_280: 585064910
+      Ground(NoCollision)_212: 269878876
+      Ground(NoCollision)_211: 438097518
+      Ground(NoCollision)_283: -1951218358
+      Ground(NoCollision)_114: 161969957
+      Ground(NoCollision)_26: 1009717593
+      Ground(NoCollision)_237: -368422799
+      Ground(NoCollision)_197: 1869293566
+      Ground(NoCollision)_34: -1256026659
+      Ground(NoCollision)_2: 713540146
+      Ground(NoCollision)_293: -159681510
+      Ground(NoCollision)_13: -1321058723
+      Ground(NoCollision)_155: -804839083
+      Ground(NoCollision)_248: -1280289269
+      Ground(NoCollision)_284: 1301467007
+      Ground(NoCollision)_163: 1274952717
+      Ground(NoCollision)_206: 1698891579
+      Ground(NoCollision)_288: 867455610
+      Ground(NoCollision)_51: 479329002
+      Ground(NoCollision)_259: -818487828
+      Ground(NoCollision)_1: -829021724
+      Ground(NoCollision)_33: 270864777
+      Ground(NoCollision)_115: 271305558
+      Ground(NoCollision)_161: 1630768737
+      Ground(NoCollision)_110: 1157221577
+      Ground(NoCollision)_112: 24292962
+      Ground(NoCollision)_290: 1621228880
+      Ground(NoCollision)_68: 1342774449
+      Ground(NoCollision)_276: 429505043
+      Ground(NoCollision)_143: 1853923240
+      Ground(NoCollision)_291: 1537223851
+      Ground(NoCollision)_219: -2128519623
+      Ground(NoCollision)_67: -8409328
+      Ground(NoCollision)_225: 2095798157
+      Ground(NoCollision)_103: 1427279427
+      Ground(NoCollision)_22: -1140884238
+      Ground(NoCollision)_109: -1807225006
+      Ground(NoCollision)_261: -1557861285
+      Ground(NoCollision)_111: 761012745
+      Ground(NoCollision)_44: -264828684
+      Ground(NoCollision)_131: -256986348
+      Ground(NoCollision)_5: -630779980
+      Ground(NoCollision)_6: 1954703413
+      Ground(NoCollision)_209: 2075266921
+      Ground(NoCollision)_289: -515899703
+      Ground(NoCollision)_99: -1276585884
+      Ground(NoCollision)_107: -175027094
+      Ground(NoCollision)_170: -282444212
+      Ground(NoCollision)_15: 1404913332
+      Ground(NoCollision)_247: 151092417
+      Ground(NoCollision)_75: -1007911018
+      Ground(NoCollision)_179: 1223040620
+      Ground(NoCollision)_256: 1371647033
+      Ground(NoCollision)_154: 404702862
+      Ground(NoCollision)_152: 788377068
+      Ground(NoCollision)_0: 1294597367
+      Ground(NoCollision)_8: -223180125
+      Ground(NoCollision)_41: 1876332509
+      Ground(NoCollision)_292: -300471017
+      Ground(NoCollision)_93: -1864611232
+      Ground(NoCollision)_158: -654311144
+      Ground(NoCollision)_48: 1176482537
+      Ground(NoCollision)_166: -719780655
+      Ground(NoCollision)_9: 364155150
+      Ground(NoCollision)_302: -904940739
+      Ground(NoCollision)_73: 10168656
+      Ground(NoCollision)_245: -1445121802
+      Ground(NoCollision)_43: -1825606523
+      Ground(NoCollision)_167: 1101159380
+      Ground(NoCollision)_241: -639085594
+      Ground(NoCollision)_60: 650159242
+      Ground(NoCollision)_135: -421246016
+      Ground(NoCollision)_273: 1638968835
+      Ground(NoCollision)_149: 1430933892
+      Ground(NoCollision)_227: 624398363
+      Ground(NoCollision)_160: 1495239630
+      Ground(NoCollision)_46: -1640648112
+      Ground(NoCollision)_258: 1530297850
+      Ground(NoCollision)_35: 2058257396
+      Ground(NoCollision)_57: -1376099702
+      Ground(NoCollision)_108: 929510997
+      Ground(NoCollision)_52: 384481727
+      Ground(NoCollision)_234: -1767259290
+      Ground(NoCollision)_116: -679585517
+      Ground(NoCollision)_174: -1235231633
+      Ground(NoCollision)_31: 919871276
+      Ground(NoCollision)_130: -124479344
+      Ground(NoCollision)_200: -804055804
+      Ground(NoCollision)_101: 1354378352
+      Ground(NoCollision)_64: 193578424
+      Ground(NoCollision)_228: 175801019
+      Ground(NoCollision)_260: 1077813411
+      Ground(NoCollision)_122: -855533323
+      Ground(NoCollision)_150: 913264660
+      Ground(NoCollision)_286: -361200882
+      Ground(NoCollision)_267: -1416239512
+      Ground(NoCollision)_97: -1622699624
+      Ground(NoCollision)_268: 1806768117
+      Ground(NoCollision)_274: -1771127812
+      Ground(NoCollision)_238: 693708203
+      Ground(NoCollision)_59: -663988118
+      Ground(NoCollision)_187: -780889004
+      Ground(NoCollision)_277: -1379295579
+      Ground(NoCollision)_58: -1122202799
+      Ground(NoCollision)_70: 648588192
+      Ground(NoCollision)_19: 2095210517
+      Ground(NoCollision)_123: 405466742
+      Ground(NoCollision)_296: -1500990351
+      Ground(NoCollision)_275: -1590630575
+      Ground(NoCollision)_164: -144654095
+      Ground(NoCollision)_194: -193759910
+      Ground(NoCollision)_252: -1558920612
+      Ground(NoCollision)_262: 1894132763
+      Ground(NoCollision)_37: -1210861822
+      Ground(NoCollision)_105: 1116173137
+      Ground(NoCollision)_222: -615156239
+      Ground(NoCollision)_159: 952411743
+      Ground(NoCollision)_83: -1227071103
+      Ground(NoCollision)_182: 2052156568
+      Ground(NoCollision)_62: 1592616813
+      Ground(NoCollision)_74: 363719734
+      Ground(NoCollision)_136: 1827135195
+      Ground(NoCollision)_207: -339182236
+      Ground(NoCollision)_242: -383719728
+      Ground(NoCollision)_138: -425508711
+      Ground(NoCollision)_180: 1986632186
+      Ground(NoCollision)_189: 1213716312
+      Ground(NoCollision)_270: 887629843
+      Ground(NoCollision)_23: 261402490
+      Ground(NoCollision)_18: 25176691
+      Ground(NoCollision)_282: 83470630
+      Ground(NoCollision)_11: 458331399
+      Ground(NoCollision)_80: 260926907
+      Ground(NoCollision)_298: 1140403262
+      Ground(NoCollision)_82: 2105510019
+      Ground(NoCollision)_236: -1355727215
+      Ground(NoCollision)_185: -24779625
+      Ground(NoCollision)_224: 1819326270
+      Ground(NoCollision)_30: 1315899543
+      Ground(NoCollision)_66: 822787822
+      Ground(NoCollision)_253: 1636176377
+      Ground(NoCollision)_47: -735841623
+      Ground(NoCollision)_118: -1850454175
+      Ground(NoCollision)_90: -1319722380
+      Ground(NoCollision)_257: 63383139
+      Ground(NoCollision)_216: 1071477651
+      Ground(NoCollision)_38: -1996420646
+      Ground(NoCollision)_125: -1001191450
+      Ground(NoCollision)_171: 28186233
+      Ground(NoCollision)_202: 872486545
+      Ground(NoCollision)_77: -393063147
+      Ground(NoCollision)_53: 1735661865
+      Ground(NoCollision)_176: -5580043
+      Ground(NoCollision)_157: 1495430177
+      Ground(NoCollision)_113: 598421662
+      Ground(NoCollision)_220: -505128061
+      Ground(NoCollision)_132: 1796539993
+      Ground(NoCollision)_25: 318173871
+      Ground(NoCollision)_175: 1010317003
+      Ground(NoCollision)_172: 739360202
+      Ground(NoCollision)_39: -708546692
+      Ground(NoCollision)_54: -1262371693
+      Ground(NoCollision)_294: -862170937
+      Ground(NoCollision)_16: -404517487
+      Ground(NoCollision)_55: -439127933
+      Ground(NoCollision)_117: 739669155
+      Ground(NoCollision)_128: -988170061
+      Ground(NoCollision)_120: 2143235718
+      Ground(NoCollision)_198: -317633897
+      Ground(NoCollision)_169: 380937380
+      Ground(NoCollision)_264: 1361901111
+      Ground(NoCollision)_98: 501324651
+      Ground(NoCollision)_142: 589504019
+      Ground(NoCollision)_91: 1618508467
+      Ground(NoCollision)_246: -1624207096
+      Ground(NoCollision)_121: 1312839090
+      Ground(NoCollision)_301: 1683642327
+      Ground(NoCollision)_94: 1353187742
+      Ground(NoCollision)_239: -1480111274
+      Ground(NoCollision)_184: -1752232583
+      Ground(NoCollision)_243: -280419073
+      Ground(NoCollision)_287: 212544222
+      Ground(NoCollision)_71: 776590644
+      Ground(NoCollision)_162: -17137656
+      Ground(NoCollision)_45: 1972434035
+      Ground(NoCollision)_205: -556980054
+      Ground(NoCollision)_281: -4326015
+      Ground(NoCollision)_186: 1885413182
+      Ground(NoCollision)_27: -376951370
+      Ground(NoCollision)_87: -667905253
+      Ground(NoCollision)_183: 1125779598
+      Ground(NoCollision)_89: -620588920
+      Ground(NoCollision)_231: -1945693283
+      Ground(NoCollision)_244: 1165423263
+      Ground(NoCollision)_232: 1517764510
+      Ground(NoCollision)_249: -2053500945
+      Ground(NoCollision)_233: 240614087
+      Ground(NoCollision)_251: -113777770
+      Ground(NoCollision)_126: -752866107
+      Ground(NoCollision)_12: -1378125635
+      Ground(NoCollision)_141: 1307694798
+      Ground(NoCollision)_168: -2113525813
+      Ground(NoCollision)_303: -1038255663
+      Ground(NoCollision)_28: -1555318617
+      Ground(NoCollision)_10: -649460423
+      Ground(NoCollision)_191: -66277687
+      Ground(NoCollision)_134: 1086680791
+      Ground(NoCollision)_265: -1378279656
+      Ground(NoCollision)_210: -1503105307
+      Ground(NoCollision)_140: 45152530
+      Ground(NoCollision)_4: -560854448
+      Ground(NoCollision)_214: -1112047132
+      Ground(NoCollision)_266: 760651747
+      Ground(NoCollision)_213: 777306698
+      Ground(NoCollision)_195: -492160573
+      Ground(NoCollision)_215: 668655148
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
