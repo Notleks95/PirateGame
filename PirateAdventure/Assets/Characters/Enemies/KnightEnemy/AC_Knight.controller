@@ -104,7 +104,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: hit
+    m_ConditionEvent: lockVelocity
     m_EventTreshold: 0
   - m_ConditionMode: 1
     m_ConditionEvent: isAlive
@@ -137,9 +137,9 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25
+  m_TransitionDuration: 0
   m_TransitionOffset: 0
-  m_ExitTime: 0.75
+  m_ExitTime: 1
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -339,12 +339,12 @@ AnimatorStateMachine:
   - {fileID: -3089399202151470366}
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: 6940881132877129469}
-    second:
-    - {fileID: -3878626502853709129}
   - first: {fileID: -1988351331897530018}
     second:
     - {fileID: -581149622841965633}
+  - first: {fileID: 6940881132877129469}
+    second:
+    - {fileID: -3878626502853709129}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 600, y: 260, z: 0}
   m_EntryPosition: {x: 30, y: 100, z: 0}
