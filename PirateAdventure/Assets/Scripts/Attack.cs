@@ -12,21 +12,18 @@ public class Attack : MonoBehaviour
         //see if can be hit
         Damageable damageable = collision.GetComponent<Damageable>();
 
-        if(damageable != null)
+        if (damageable != null)
         {
             Vector2 deliveredKnockback = transform.parent.localScale.x > 0 ? knockback : new Vector2(-knockback.x, knockback.y);
-            
+
             //hit target
             bool gotHit = damageable.Hit(attackDamage, deliveredKnockback);
 
-            if(gotHit)
+            if (gotHit)
             {
                 Debug.Log(collision.name + " hit for " + attackDamage);
-            }            
+            }
 
         }
     }
-
-
-
 }

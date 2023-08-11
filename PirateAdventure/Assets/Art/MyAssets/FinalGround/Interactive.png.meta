@@ -423,10 +423,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leaves2
+      name: leaves3
       rect:
         serializedVersion: 2
-        x: 117
+        x: 120
         y: 52
         width: 16
         height: 16
@@ -444,10 +444,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leaves3
+      name: leaves5
       rect:
         serializedVersion: 2
-        x: 136
+        x: 141
         y: 52
         width: 16
         height: 16
@@ -460,6 +460,69 @@ TextureImporter:
       bones: []
       spriteID: f8d28da7cb20ada4b9ad9003b9001e77
       internalID: 186547155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves6
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031732b64fe24114e9e2462ac845ad9c
+      internalID: -1240526674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves4
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8634751cca08f42b0c01045df47650
+      internalID: 748017831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: leaves2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 36
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af97c7adbd088a64981f500bdc14ea78
+      internalID: -1682871199
       vertices: []
       indices: 
       edges: []
@@ -477,21 +540,14 @@ TextureImporter:
     nameFileIdTable:
       chest2: 2089316661
       Interactive_40: -1593860660
-      sparkle: 192818315
       Interactive_25: -1001796540
       apple: 526451764
-      leaves3: 1019131631
-      Interactive_20: -357996422
       Interactive_11: 1644513018
-      Interactive_29: -542649642
-      leaves2: -1002563888
+      leaves2: -1682871199
+      leaves5: 186547155
       Interactive_5: 998652496
       Interactive_10: 632189953
-      chest1: -1272118689
-      leaves1: 1014841613
       Pile of coins: -481566705
-      chest3: 166431225
-      Interactive_6: 739947827
       mapsavepoint: 1309187405
       Interactive_34: 636750517
       Interactive_16: 923385036
@@ -499,22 +555,32 @@ TextureImporter:
       potion: -1133988606
       coin2: -1674511049
       coin3: -1315181538
-      Interactive_30: 354012459
       chest4: -116495565
-      Interactive_7: -1673101707
+      chest5: -1291925068
       Interactive_33: 1146927353
       Interactive_9: -1787090436
       Interactive_37: 1877112101
       Interactive_39: -402868046
-      chest5: -1291925068
-      Interactive_32: -1115123545
-      Interactive_17: 732298780
       Interactive_3: 1812216993
-      Interactive_15: -1406227929
+      leaves6: -1240526674
       Interactive_38: -1059802446
       Interactive_8: -1844996598
-      coin1: 1183011864
       Interactive_36: -1468484965
+      sparkle: 192818315
+      leaves3: -1002563888
+      Interactive_20: -357996422
+      Interactive_29: -542649642
+      chest1: -1272118689
+      leaves1: 1014841613
+      chest3: 166431225
+      Interactive_6: 739947827
+      Interactive_30: 354012459
+      Interactive_7: -1673101707
+      Interactive_32: -1115123545
+      Interactive_17: 732298780
+      leaves4: 748017831
+      Interactive_15: -1406227929
+      coin1: 1183011864
       Interactive_24: 1704867477
   spritePackingTag: 
   pSDRemoveMatte: 0

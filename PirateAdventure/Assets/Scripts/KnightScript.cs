@@ -10,7 +10,8 @@ public class KnightScript : MonoBehaviour
     public float walkAcceleration = 3f;
     public float maxSpeed = 3f;
     public float walkStopRate = 0.05f;
-    
+    public GameObject coinPrefab;
+
     public DetectionZone attackZone;
     public DetectionZone cliffDetectionZone;
 
@@ -96,6 +97,10 @@ public class KnightScript : MonoBehaviour
 
     }
 
+    private void OnEnable()
+    {
+        damageable.damageableDeath.AddListener(OnDeath);
+    }
 
     // Update is called once per frame
     void Update()
@@ -158,6 +163,14 @@ public class KnightScript : MonoBehaviour
         {
             FlipDirection();
         }
+    }
+
+    public void OnDeath()
+    {
+        Vector3 coinposition = transform.position;
+
+        //coin appears in place
+        Instantiate(coinPrefab, coinposition, Quaternion.identity);
     }
 
 }

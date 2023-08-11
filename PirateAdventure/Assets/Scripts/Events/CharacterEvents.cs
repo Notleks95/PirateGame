@@ -11,8 +11,10 @@ public class CharacterEvents
     //character damage and value
     public static UnityAction<GameObject, int> characterDamaged;
 
-
     //character heal and value
     public static UnityAction<GameObject, int> characterHealed;
+
+    //character gold pickup
+    public static UnityAction<GameObject, int> goldCollected;
 
 }

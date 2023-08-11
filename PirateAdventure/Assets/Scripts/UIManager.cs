@@ -9,6 +9,7 @@ public class UIManager : MonoBehaviour
 {
     public GameObject damageTextPrefab;
     public GameObject healthTextPrefab;
+    public GameObject goldTextPrefab;
 
     public Canvas gameCanvas;
 
@@ -22,12 +23,14 @@ public class UIManager : MonoBehaviour
     {
         CharacterEvents.characterDamaged += CharacterTookDamage;
         CharacterEvents.characterHealed += CharacterHealed;
+        CharacterEvents.goldCollected += GoldCollected;
     }
 
     private void OnDisable()
     {
         CharacterEvents.characterDamaged -= CharacterTookDamage;
         CharacterEvents.characterHealed -= CharacterHealed;
+        CharacterEvents.goldCollected -= GoldCollected;
     }
 
     public void CharacterTookDamage(GameObject character, int damageReceived)
@@ -48,6 +51,16 @@ public class UIManager : MonoBehaviour
         TMP_Text tmpText = Instantiate(healthTextPrefab, spawnPosition, Quaternion.identity, gameCanvas.transform).GetComponent<TMP_Text>();
 
         tmpText.text = healthRestored.ToString();
+    }
+
+    public void GoldCollected(GameObject character, int goldAcquired)
+    {
+        //Text at gold pickup
+        Vector3 spawnPosition = Camera.main.WorldToScreenPoint(character.transform.position);
+
+        TMP_Text tmpText = Instantiate(goldTextPrefab, spawnPosition, Quaternion.identity, gameCanvas.transform).GetComponent<TMP_Text>();
+
+        tmpText.text = "+" + goldAcquired.ToString();
     }
 
     public void OnExitGame(InputAction.CallbackContext context)

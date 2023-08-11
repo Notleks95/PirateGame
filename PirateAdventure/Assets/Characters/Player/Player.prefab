@@ -11,9 +11,10 @@ GameObject:
   - component: {fileID: 4547209378248228065}
   - component: {fileID: 6503701209400582462}
   - component: {fileID: 4697919187789354683}
+  - component: {fileID: 8012119535706518060}
   m_Layer: 9
   m_Name: SwordAttack3
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 283901759347627642}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.163, y: -0.317, z: 0}
+  m_LocalPosition: {x: 1.38, y: -0.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -72,12 +73,33 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 1.2795944, y: 0.89534974}
+    - - {x: 1.3579344, y: 0.9792786}
       - {x: 0.22531128, y: 0.8748286}
-      - {x: -0.775817, y: 0.73459935}
+      - {x: -0.91683453, y: 0.7849567}
       - {x: -0.22478622, y: 0.6805215}
-      - {x: 0.5502335, y: 0.6930386}
-      - {x: 3.2792425, y: 0.92235655}
+      - {x: 0.6285735, y: 0.64268124}
+      - {x: 3.294905, y: 0.9559281}
+--- !u!50 &8012119535706518060
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283901759347627642}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2340045296736822313
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,9 +111,11 @@ GameObject:
   - component: {fileID: 127800309009290663}
   - component: {fileID: 1212603947109723893}
   - component: {fileID: 9050160044203839541}
+  - component: {fileID: 1535194233070562898}
+  - component: {fileID: 231768852}
   m_Layer: 9
   m_Name: SwordAttack1
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,7 +128,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2340045296736822313}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.548, y: 0.215, z: 0}
+  m_LocalPosition: {x: 1.91, y: 0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -150,12 +174,47 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 1.083374, y: 0.44196343}
-      - {x: 0.4005432, y: 0.3616264}
-      - {x: -0.95105654, y: 0.30901697}
-      - {x: -0.47512954, y: 0.10473335}
-      - {x: 0.7505051, y: 0.1297679}
-      - {x: 2.9037237, y: 0.3716027}
+    - - {x: 1.005034, y: 0.30767715}
+      - {x: 0.8363422, y: -0.12825845}
+      - {x: -0.022509426, y: -0.34337676}
+      - {x: -1.295783, y: -0.7652732}
+      - {x: -0.49079204, y: -0.6338411}
+      - {x: 1.1735716, y: -0.4409489}
+      - {x: 2.3321567, y: -0.013212571}
+      - {x: 2.637351, y: 0.4219601}
+--- !u!50 &1535194233070562898
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2340045296736822313}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &231768852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2340045296736822313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 418f9f08dc97be94aa4b107284596752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4898951624757621988
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,9 +226,10 @@ GameObject:
   - component: {fileID: 3850999818026098526}
   - component: {fileID: 8090030437552267817}
   - component: {fileID: 5392564969539746735}
+  - component: {fileID: 8518382638802475646}
   m_Layer: 9
   m_Name: AirAttack2
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -234,6 +294,27 @@ PolygonCollider2D:
       - {x: -0.024514616, y: 0.17983603}
       - {x: 2.215013, y: 0.75562406}
       - {x: 2.5031805, y: 1.2352844}
+--- !u!50 &8518382638802475646
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4898951624757621988}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &5026160886071717501
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,9 +326,10 @@ GameObject:
   - component: {fileID: 4708062730147768876}
   - component: {fileID: 1414825011243435093}
   - component: {fileID: 8400370129037442900}
+  - component: {fileID: 5776735516582802198}
   m_Layer: 9
   m_Name: SwordAttack2
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -260,7 +342,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5026160886071717501}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalPosition: {x: 1.28, y: -0.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -311,6 +393,27 @@ PolygonCollider2D:
       - {x: -0.42505783, y: 0.26745617}
       - {x: 1.5140549, y: 0.3675933}
       - {x: 3.5421057, y: 0.63446254}
+--- !u!50 &5776735516582802198
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5026160886071717501}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &7510600468349295526
 GameObject:
   m_ObjectHideFlags: 0
@@ -344,7 +447,7 @@ Transform:
   m_GameObject: {fileID: 7510600468349295526}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -116.01, y: 1.59, z: 0.013490403}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5518991, y: 0.5151786, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 127800309009290663}
@@ -395,7 +498,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: a11fd6955ca746f46824944fcd7c8cb5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -513,7 +616,7 @@ MonoBehaviour:
   walkSpeed: 4
   runSpeed: 9
   airWalkSpeed: 5
-  jumpImpulse: 6.6
+  jumpImpulse: 7.1
   _isMoving: 0
   _isRunning: 0
   _isFacingRight: 1
@@ -558,10 +661,6 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 840c3cd9-f5e0-405a-b2e5-935a28668c7b
     m_ActionName: Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 3d4fe5c9-65a3-4c2c-b32b-7f945e36fbdb
-    m_ActionName: Player/Look[/Mouse/delta,/Touchscreen/delta]
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 516262545506139871}
@@ -654,6 +753,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 25a1f5c5-d763-465d-9684-4adc0bf81815
     m_ActionName: UI/Escape[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 9f4e5c47-05a3-4fa1-9f3d-7501db68a23d
+    m_ActionName: Player/Interact[/Mouse/rightButton]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -692,8 +795,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.06254959, y: -0.1608553}
-  m_Size: {x: 0.72927094, y: 3.6782894}
+  m_Offset: {x: 0.06254958, y: -0.18685026}
+  m_Size: {x: 0.72927094, y: 3.6263}
   m_Direction: 0
 --- !u!1 &7790599142556024746
 GameObject:
@@ -706,9 +809,10 @@ GameObject:
   - component: {fileID: 6922784103186445842}
   - component: {fileID: 2133854887022193472}
   - component: {fileID: 4218783009684592430}
+  - component: {fileID: 7195828475450879275}
   m_Layer: 9
   m_Name: AirAttack1
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -774,3 +878,24 @@ PolygonCollider2D:
       - {x: 0.38855612, y: 0.20487046}
       - {x: 2.2150207, y: 0.7556244}
       - {x: 2.5282125, y: 1.272836}
+--- !u!50 &7195828475450879275
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7790599142556024746}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

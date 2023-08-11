@@ -10,6 +10,7 @@ public class FlyingEnemyScript : MonoBehaviour
     public DetectionZone biteDetectionZone;
     public Collider2D deathCollider;
     public List<Transform> waypoints;
+    public GameObject coinPrefab;
 
     Animator animator;
     Rigidbody2D rb;
@@ -136,9 +137,14 @@ public class FlyingEnemyScript : MonoBehaviour
 
     public void OnDeath()
     {
+        Vector3 coinposition = transform.position;
+
         //dead enemy falls to ground
         rb.gravityScale = 2f;
         rb.velocity = new Vector2(0, rb.velocity.y);
         deathCollider.enabled = true;
+
+        //coin appears in place
+        Instantiate(coinPrefab, coinposition, Quaternion.identity);
     }
 }
