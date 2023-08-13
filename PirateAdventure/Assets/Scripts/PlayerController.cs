@@ -1,5 +1,8 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+using System.Collections;
+
 
 [RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirections), typeof(Damageable))]
 
@@ -12,7 +15,12 @@ public class PlayerController : MonoBehaviour
     Vector2 moveInput;
     TouchingDirections touchingDirections;
     Damageable damageable;
-    
+
+    Rigidbody2D rb;
+    Animator animator;
+    CharacterDiedScript characterDiedScript;
+
+
 
     public float CurrentMoveSpeed
     { get
@@ -80,8 +88,14 @@ public class PlayerController : MonoBehaviour
 
     public bool _isFacingRight = true;
 
-    public bool IsFacingRight { get { return _isFacingRight; }
-        private set {
+    public bool IsFacingRight 
+    { 
+        get 
+        { 
+            return _isFacingRight; 
+        }
+        private set 
+        {
             if (_isFacingRight != value)
             {
                 //flip local scale to make player face other direction
@@ -91,12 +105,15 @@ public class PlayerController : MonoBehaviour
             _isFacingRight = value;
         } }
 
-    public bool CanMove {get
+    public bool CanMove 
+    {
+        get
         {
             return animator.GetBool(AnimationsStrings.canMove);
         }
     }
 
+    
     public bool IsAlive
     {
         get
@@ -106,18 +123,18 @@ public class PlayerController : MonoBehaviour
     }
 
     
-    Rigidbody2D rb;
-    Animator animator;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         touchingDirections = GetComponent<TouchingDirections>();
-        damageable = GetComponent<Damageable>(); 
+        damageable = GetComponent<Damageable>();
+        characterDiedScript = GetComponent<CharacterDiedScript>();
+
     }
 
-       
+   
     private void FixedUpdate()
     {
         if(!damageable.LockVelocity)
@@ -142,6 +159,8 @@ public class PlayerController : MonoBehaviour
         else
         {
             IsMoving = false;
+            
+
         }
     }
 
@@ -196,7 +215,25 @@ public class PlayerController : MonoBehaviour
         rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
     }
 
+    void Update()
+    {
+        StartCoroutine(OnDeath());
+    }
 
+    private IEnumerator OnDeath()
+    {
+        if (IsAlive == false)
+        {
+            yield return new WaitForSeconds(2);
+            transform.position = InteractionScript.respawnPoint;
+            animator.SetBool(AnimationsStrings.isAlive, true);
+            CharacterDiedScript.instance.RespawnDeath();
+            
+        }
+        else 
+        {
+            yield break;
+        }
 
-
+    }
 }

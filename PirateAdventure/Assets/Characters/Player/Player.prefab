@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6503701209400582462}
   - component: {fileID: 4697919187789354683}
   - component: {fileID: 8012119535706518060}
+  - component: {fileID: 2127129611}
   m_Layer: 9
   m_Name: SwordAttack3
   m_TagString: Weapon
@@ -100,6 +101,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2127129611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283901759347627642}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 418f9f08dc97be94aa4b107284596752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2340045296736822313
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,7 +191,9 @@ PolygonCollider2D:
       - {x: 0.8363422, y: -0.12825845}
       - {x: -0.022509426, y: -0.34337676}
       - {x: -1.295783, y: -0.7652732}
-      - {x: -0.49079204, y: -0.6338411}
+      - {x: 0.61107, y: -0.5881835}
+      - {x: 0.69878167, y: -2.278141}
+      - {x: 0.70203125, y: -0.61729664}
       - {x: 1.1735716, y: -0.4409489}
       - {x: 2.3321567, y: -0.013212571}
       - {x: 2.637351, y: 0.4219601}
@@ -227,6 +242,7 @@ GameObject:
   - component: {fileID: 8090030437552267817}
   - component: {fileID: 5392564969539746735}
   - component: {fileID: 8518382638802475646}
+  - component: {fileID: 2100805805}
   m_Layer: 9
   m_Name: AirAttack2
   m_TagString: Weapon
@@ -315,6 +331,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2100805805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4898951624757621988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 418f9f08dc97be94aa4b107284596752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5026160886071717501
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,6 +355,7 @@ GameObject:
   - component: {fileID: 1414825011243435093}
   - component: {fileID: 8400370129037442900}
   - component: {fileID: 5776735516582802198}
+  - component: {fileID: 415937758}
   m_Layer: 9
   m_Name: SwordAttack2
   m_TagString: Weapon
@@ -414,6 +443,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &415937758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5026160886071717501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 418f9f08dc97be94aa4b107284596752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7510600468349295526
 GameObject:
   m_ObjectHideFlags: 0
@@ -455,6 +496,7 @@ Transform:
   - {fileID: 4547209378248228065}
   - {fileID: 6922784103186445842}
   - {fileID: 3850999818026098526}
+  - {fileID: 8454860482715971108}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -810,6 +852,7 @@ GameObject:
   - component: {fileID: 2133854887022193472}
   - component: {fileID: 4218783009684592430}
   - component: {fileID: 7195828475450879275}
+  - component: {fileID: 2084886683}
   m_Layer: 9
   m_Name: AirAttack1
   m_TagString: Weapon
@@ -899,3 +942,98 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2084886683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7790599142556024746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 418f9f08dc97be94aa4b107284596752, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &8937728350694527720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8454860482715971108}
+  - component: {fileID: 3040076160257147889}
+  - component: {fileID: 14021427174344551}
+  - component: {fileID: 1147708828745072596}
+  m_Layer: 9
+  m_Name: InteractionDetector
+  m_TagString: InteractionDetector
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8454860482715971108
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8937728350694527720}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.02, y: -0.6, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5998498881641213876}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &3040076160257147889
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8937728350694527720}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.94, y: -0.45}
+  serializedVersion: 2
+  m_Radius: 0.8860521
+--- !u!50 &14021427174344551
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8937728350694527720}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1147708828745072596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8937728350694527720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd73bb59ee44ce4d94703817e312be5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Weapon
   - Leaves
+  - Interactable
+  - InteractionDetector
+  - Checkpoint
   layers:
   - Default
   - TransparentFX

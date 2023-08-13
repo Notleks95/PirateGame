@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 
 public class UIManager : MonoBehaviour
@@ -10,6 +11,7 @@ public class UIManager : MonoBehaviour
     public GameObject damageTextPrefab;
     public GameObject healthTextPrefab;
     public GameObject goldTextPrefab;
+    public GameObject CharacterDeathPrefab;
 
     public Canvas gameCanvas;
 
@@ -24,6 +26,7 @@ public class UIManager : MonoBehaviour
         CharacterEvents.characterDamaged += CharacterTookDamage;
         CharacterEvents.characterHealed += CharacterHealed;
         CharacterEvents.goldCollected += GoldCollected;
+        CharacterEvents.characterDied += CharacterDied;
     }
 
     private void OnDisable()
@@ -31,6 +34,7 @@ public class UIManager : MonoBehaviour
         CharacterEvents.characterDamaged -= CharacterTookDamage;
         CharacterEvents.characterHealed -= CharacterHealed;
         CharacterEvents.goldCollected -= GoldCollected;
+        CharacterEvents.characterDied -= CharacterDied;
     }
 
     public void CharacterTookDamage(GameObject character, int damageReceived)
@@ -63,22 +67,37 @@ public class UIManager : MonoBehaviour
         tmpText.text = "+" + goldAcquired.ToString();
     }
 
-    public void OnExitGame(InputAction.CallbackContext context)
+    public void CharacterDied(GameObject character, int goldAcquired)
     {
-        if (context.started)
-        {
-            #if (UNITY_EDITOR || DEVELOPMENT_BUILD)
-                Debug.Log(this.name + " : " + this.GetType() + " : " + System.Reflection.MethodBase.GetCurrentMethod().Name);
-            #endif
+        //Text at respawn point
+        Vector3 spawnPosition = Camera.main.WorldToScreenPoint(character.transform.position);
 
-            #if (UNITY_EDITOR)
-                        UnityEditor.EditorApplication.isPlaying = false;
-            #elif (UNITY_STANDALONE)
-                                Application.Quit();
-            #elif (UNITY_WEBGL)
-                                SceneManager.LoadScene("QuitScene");
-            #endif  
+        TMP_Text tmpText = Instantiate(goldTextPrefab, spawnPosition, Quaternion.identity, gameCanvas.transform).GetComponent<TMP_Text>();
 
-        }
+        tmpText.text = "+" + goldAcquired.ToString();
     }
+
+    //public void OnExitGame(InputAction.CallbackContext context)
+    //{
+    //  if (context.started)
+    //{
+    //  #if (UNITY_EDITOR || DEVELOPMENT_BUILD)
+    //    Debug.Log(this.name + " : " + this.GetType() + " : " + System.Reflection.MethodBase.GetCurrentMethod().Name);
+    //        #endif
+    //
+    //      #if (UNITY_EDITOR)
+    //                UnityEditor.EditorApplication.isPlaying = false;
+    //  #elif (UNITY_STANDALONE)
+    //                    Application.Quit();
+    //         #elif (UNITY_WEBGL)
+    //                           SceneManager.LoadScene("QuitScene");
+    //     #endif  
+    //
+    //    }
+    //}
+
+    //public void OnPause(InputAction.CallbackContext context)
+    //{
+    //   SceneManager.LoadScene("PauseMenu");
+    //}
 }

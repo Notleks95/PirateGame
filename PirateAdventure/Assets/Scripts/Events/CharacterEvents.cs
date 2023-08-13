@@ -17,4 +17,6 @@ public class CharacterEvents
     //character gold pickup
     public static UnityAction<GameObject, int> goldCollected;
 
+    //character died/respawned
+    public static UnityAction<GameObject, int> characterDied;
 }

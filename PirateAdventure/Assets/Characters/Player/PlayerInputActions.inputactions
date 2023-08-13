@@ -369,7 +369,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Escape",
+                    "name": "PauseMenu",
                     "type": "Button",
                     "id": "25a1f5c5-d763-465d-9684-4adc0bf81815",
                     "expectedControlType": "Button",
@@ -804,7 +804,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Escape",
+                    "action": "PauseMenu",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

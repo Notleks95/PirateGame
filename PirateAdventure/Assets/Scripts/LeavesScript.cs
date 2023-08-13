@@ -18,12 +18,14 @@ public class LeavesScript : MonoBehaviour
         animator = GetComponent<Animator>();
     }
     
-    private void OnTriggerEnter2D()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        animator.Play("leaves_cut");
-        AudioSource.PlayClipAtPoint(pickupSource, gameObject.transform.position, volume);
-        Debug.Log("Leaves go swoosh");
-                   
+        if (collision.gameObject.CompareTag("Weapon"))
+        {
+            animator.Play("leaves_cut");
+            AudioSource.PlayClipAtPoint(pickupSource, gameObject.transform.position, volume);
+            Debug.Log("Leaves go swoosh");
+        }           
     }
 
 }
