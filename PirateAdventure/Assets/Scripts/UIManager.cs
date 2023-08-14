@@ -73,31 +73,11 @@ public class UIManager : MonoBehaviour
         Vector3 spawnPosition = Camera.main.WorldToScreenPoint(character.transform.position);
 
         TMP_Text tmpText = Instantiate(goldTextPrefab, spawnPosition, Quaternion.identity, gameCanvas.transform).GetComponent<TMP_Text>();
+        tmpText.text = "-" + goldAcquired.ToString();
+        
+        TMP_Text tmpText2 = Instantiate(CharacterDeathPrefab, spawnPosition, Quaternion.identity, gameCanvas.transform).GetComponent<TMP_Text>();
 
-        tmpText.text = "+" + goldAcquired.ToString();
     }
 
-    //public void OnExitGame(InputAction.CallbackContext context)
-    //{
-    //  if (context.started)
-    //{
-    //  #if (UNITY_EDITOR || DEVELOPMENT_BUILD)
-    //    Debug.Log(this.name + " : " + this.GetType() + " : " + System.Reflection.MethodBase.GetCurrentMethod().Name);
-    //        #endif
-    //
-    //      #if (UNITY_EDITOR)
-    //                UnityEditor.EditorApplication.isPlaying = false;
-    //  #elif (UNITY_STANDALONE)
-    //                    Application.Quit();
-    //         #elif (UNITY_WEBGL)
-    //                           SceneManager.LoadScene("QuitScene");
-    //     #endif  
-    //
-    //    }
-    //}
-
-    //public void OnPause(InputAction.CallbackContext context)
-    //{
-    //   SceneManager.LoadScene("PauseMenu");
-    //}
+    
 }

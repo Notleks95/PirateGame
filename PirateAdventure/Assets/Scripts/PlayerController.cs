@@ -12,13 +12,14 @@ public class PlayerController : MonoBehaviour
     public float runSpeed = 10f;
     public float airWalkSpeed = 5f;
     public float jumpImpulse = 10f;
+    //public GameObject characterPlayer;
     Vector2 moveInput;
     TouchingDirections touchingDirections;
     Damageable damageable;
 
     Rigidbody2D rb;
     Animator animator;
-    CharacterDiedScript characterDiedScript;
+    //CharacterDiedScript characterDiedScript;
 
 
 
@@ -113,7 +114,20 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    
+   // public bool _isAlive = true;
+    //public bool IsAlive
+    //{
+//        get
+  //      {
+    //        return _isAlive;
+      //  }
+//        set
+  //      {
+    //        _isAlive = value;
+      //      animator.GetBool(AnimationsStrings.isAlive);
+        //}
+    //}
+
     public bool IsAlive
     {
         get
@@ -122,15 +136,13 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    
-
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         touchingDirections = GetComponent<TouchingDirections>();
         damageable = GetComponent<Damageable>();
-        characterDiedScript = GetComponent<CharacterDiedScript>();
+        
 
     }
 
@@ -220,20 +232,22 @@ public class PlayerController : MonoBehaviour
         StartCoroutine(OnDeath());
     }
 
+    public CharacterDiedScript characterDied;
+
+
     private IEnumerator OnDeath()
     {
         if (IsAlive == false)
         {
             yield return new WaitForSeconds(2);
             transform.position = InteractionScript.respawnPoint;
+            animator.SetBool(AnimationsStrings.lockVelocity, false);
             animator.SetBool(AnimationsStrings.isAlive, true);
-            CharacterDiedScript.instance.RespawnDeath();
+            characterDied.RespawnDeath();
             
-        }
-        else 
-        {
+            //characterDied.hasRespawned = false;
             yield break;
         }
-
+        
     }
 }

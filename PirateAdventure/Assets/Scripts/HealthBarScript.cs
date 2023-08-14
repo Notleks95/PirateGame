@@ -47,11 +47,7 @@ public class HealthBarScript : MonoBehaviour
     }
 
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 
     private void OnPlayerHealthChanged(int newHealth, int maxHealth)
     {

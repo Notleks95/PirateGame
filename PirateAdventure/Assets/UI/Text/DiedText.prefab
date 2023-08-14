@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3235865594521599116}
   - component: {fileID: 5126280833649008047}
   - component: {fileID: 6942881915573102730}
+  - component: {fileID: 8649234766245589997}
   m_Layer: 5
   m_Name: DiedText
   m_TagString: Untagged
@@ -35,7 +36,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -134.4, y: -14.7}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5126280833649008047
@@ -66,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Your crew saved you! But you lost 50 coins...
+  m_text: Your crew saved you!                 But you lost gold...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8cc1e5d5ec0585a40a9cb8eeb39667db, type: 2}
   m_sharedMaterial: {fileID: 4676452524039322041, guid: 8cc1e5d5ec0585a40a9cb8eeb39667db, type: 2}
@@ -80,7 +81,7 @@ MonoBehaviour:
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topLeft: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
     topRight: {r: 1, g: 1, b: 1, a: 1}
     bottomLeft: {r: 1, g: 1, b: 1, a: 1}
     bottomRight: {r: 1, g: 1, b: 1, a: 1}
@@ -129,9 +130,23 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -23.93863, y: 0, z: -207.16162, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &8649234766245589997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4425787271627498764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cea488077751c36488bb0a7a688e1b93, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: {x: 100, y: 0, z: 0}
+  timeToFade: 3

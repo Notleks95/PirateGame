@@ -472,6 +472,7 @@ GameObject:
   - component: {fileID: 3161190136669399717}
   - component: {fileID: 544499236944861628}
   - component: {fileID: 7952442540990392038}
+  - component: {fileID: 2021025109}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -638,8 +639,8 @@ MonoBehaviour:
   healthChange:
     m_PersistentCalls:
       m_Calls: []
-  _maxHealth: 100
-  _health: 100
+  _maxHealth: 10
+  _health: 10
   _isAlive: 1
   isInvincible: 0
   invincibilityTime: 0.25
@@ -662,6 +663,7 @@ MonoBehaviour:
   _isMoving: 0
   _isRunning: 0
   _isFacingRight: 1
+  characterDied: {fileID: 0}
 --- !u!114 &3161190136669399717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -840,6 +842,21 @@ CapsuleCollider2D:
   m_Offset: {x: 0.06254958, y: -0.18685026}
   m_Size: {x: 0.72927094, y: 3.6263}
   m_Direction: 0
+--- !u!114 &2021025109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7510600468349295526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fb93f56336e7ee468588d1b219763b5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnNoise: {fileID: 8300000, guid: 46e9bb9bdf10da548afb01e04b81c712, type: 3}
+  volume: 1
+  hasRespawned: 0
 --- !u!1 &7790599142556024746
 GameObject:
   m_ObjectHideFlags: 0
@@ -1037,3 +1054,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bd73bb59ee44ce4d94703817e312be5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerPosition: {fileID: 7510600468349295526}
