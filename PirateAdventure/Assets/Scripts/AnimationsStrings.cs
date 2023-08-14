@@ -22,4 +22,5 @@ class AnimationsStrings
     internal static string lockVelocity = "lockVelocity";
     internal static string attackCooldown = "attackCooldown";
     internal static string open = "open";
+    internal static string isDead = "isDead";
 }

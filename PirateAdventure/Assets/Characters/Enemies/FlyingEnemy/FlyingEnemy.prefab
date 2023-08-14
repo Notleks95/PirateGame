@@ -182,9 +182,10 @@ MonoBehaviour:
   healthChange:
     m_PersistentCalls:
       m_Calls: []
-  _maxHealth: 100
-  _health: 100
+  _maxHealth: 20
+  _health: 20
   _isAlive: 1
+  _isDead: 1
   isInvincible: 0
   invincibilityTime: 0.25
 --- !u!114 &4415115818553005075
@@ -203,7 +204,12 @@ MonoBehaviour:
   waypointReachedDistance: 0.2
   biteDetectionZone: {fileID: 5230267067148775507}
   deathCollider: {fileID: 4804958699982786947}
-  waypoints: []
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  coinPrefab: {fileID: 3075645008568669504, guid: b27dcbde9dea27949acb373a56cda47d, type: 3}
   _hasTarget: 0
 --- !u!1 &4161626159043783313
 GameObject:

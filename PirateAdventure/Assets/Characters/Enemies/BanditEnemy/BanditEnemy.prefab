@@ -285,6 +285,7 @@ MonoBehaviour:
   _maxHealth: 50
   _health: 50
   _isAlive: 1
+  _isDead: 1
   isInvincible: 0
   invincibilityTime: 0.1
 --- !u!114 &8136768514444084112
@@ -302,6 +303,7 @@ MonoBehaviour:
   walkAcceleration: 30
   maxSpeed: 5
   walkStopRate: 0.05
+  coinPrefab: {fileID: 3075645008568669504, guid: b27dcbde9dea27949acb373a56cda47d, type: 3}
   attackZone: {fileID: 1454360244554524147}
   cliffDetectionZone: {fileID: 9004393043041091806}
   _hasTarget: 0

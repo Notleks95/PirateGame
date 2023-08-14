@@ -55,8 +55,9 @@ public class CharacterDiedScript : MonoBehaviour
         CharacterEvents.characterHealed.Invoke(gameObject, (damageable.MaxHealth / 2));
         damageable.Health = (damageable.MaxHealth / 2);
         damageable.IsAlive = true;
-        animator.SetBool(AnimationsStrings.isAlive, true);
-        
-        
+        //animator.SetBool(AnimationsStrings.isAlive, true);
+        animator.SetBool(AnimationsStrings.isDead, false);
+
+
     }
 }

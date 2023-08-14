@@ -237,7 +237,8 @@ public class PlayerController : MonoBehaviour
         }
             
     }
-
+    //IsAlive = false;
+      //          IsDead = true;
     public CharacterDiedScript characterDied;
 
 
@@ -246,7 +247,7 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(2);
         transform.position = InteractionScript.respawnPoint;
         animator.SetBool(AnimationsStrings.lockVelocity, false);
-        //animator.SetBool(AnimationsStrings.isAlive, true);
+        animator.SetBool(AnimationsStrings.isAlive, true);
         characterDied.RespawnDeath();
             
         //characterDied.hasRespawned = false;

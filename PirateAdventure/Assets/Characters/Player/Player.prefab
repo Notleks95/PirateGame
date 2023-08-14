@@ -642,6 +642,7 @@ MonoBehaviour:
   _maxHealth: 10
   _health: 10
   _isAlive: 1
+  _isDead: 1
   isInvincible: 0
   invincibilityTime: 0.25
 --- !u!114 &516262545506139871
@@ -663,7 +664,8 @@ MonoBehaviour:
   _isMoving: 0
   _isRunning: 0
   _isFacingRight: 1
-  characterDied: {fileID: 0}
+  _isAlive: 1
+  characterDied: {fileID: 2021025109}
 --- !u!114 &3161190136669399717
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -856,7 +858,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   respawnNoise: {fileID: 8300000, guid: 46e9bb9bdf10da548afb01e04b81c712, type: 3}
   volume: 1
-  hasRespawned: 0
 --- !u!1 &7790599142556024746
 GameObject:
   m_ObjectHideFlags: 0

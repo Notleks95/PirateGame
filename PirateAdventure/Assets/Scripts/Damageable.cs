@@ -42,13 +42,18 @@ public class Damageable : MonoBehaviour
             if(_health <= 0)
             {
                 IsAlive = false;
+                IsDead = true;
 
             }
         }
     }
 
+
     [SerializeField]
     private bool _isAlive = true;
+
+    [SerializeField]
+    private bool _isDead = true;
 
     [SerializeField]
     private bool isInvincible = false;
@@ -73,6 +78,21 @@ public class Damageable : MonoBehaviour
             {
                 damageableDeath.Invoke();
             }
+        }
+    }
+
+    public bool IsDead
+    {
+        get
+        {
+            return _isDead;
+        }
+        set
+        {
+            _isDead = value;
+            animator.SetBool(AnimationsStrings.isDead, value);
+            Debug.Log("IsDead set " + value);
+
         }
     }
 
