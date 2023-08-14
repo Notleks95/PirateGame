@@ -114,27 +114,27 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-   // public bool _isAlive = true;
-    //public bool IsAlive
-    //{
-//        get
-  //      {
-    //        return _isAlive;
-      //  }
-//        set
-  //      {
-    //        _isAlive = value;
-      //      animator.GetBool(AnimationsStrings.isAlive);
-        //}
-    //}
-
+    public bool _isAlive = true;
     public bool IsAlive
-    {
+    { 
         get
         {
-            return animator.GetBool(AnimationsStrings.isAlive);
+            return _isAlive;
+        }
+        set
+        {
+            _isAlive = value;
+            animator.GetBool(AnimationsStrings.isAlive);
         }
     }
+
+    //public bool IsAlive
+    //{
+    //    get
+    //    {
+    //        return animator.GetBool(AnimationsStrings.isAlive);
+    //    }
+   // }
 
     private void Awake()
     {
@@ -229,7 +229,13 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        StartCoroutine(OnDeath());
+        if (animator.GetBool(AnimationsStrings.isAlive) == false)
+        {
+            animator.SetBool(AnimationsStrings.isAlive, true);
+            StartCoroutine(OnDeath());
+            
+        }
+            
     }
 
     public CharacterDiedScript characterDied;
@@ -237,17 +243,15 @@ public class PlayerController : MonoBehaviour
 
     private IEnumerator OnDeath()
     {
-        if (IsAlive == false)
-        {
-            yield return new WaitForSeconds(2);
-            transform.position = InteractionScript.respawnPoint;
-            animator.SetBool(AnimationsStrings.lockVelocity, false);
-            animator.SetBool(AnimationsStrings.isAlive, true);
-            characterDied.RespawnDeath();
+        yield return new WaitForSeconds(2);
+        transform.position = InteractionScript.respawnPoint;
+        animator.SetBool(AnimationsStrings.lockVelocity, false);
+        //animator.SetBool(AnimationsStrings.isAlive, true);
+        characterDied.RespawnDeath();
             
-            //characterDied.hasRespawned = false;
-            yield break;
-        }
+        //characterDied.hasRespawned = false;
+        yield break;
+        
         
     }
 }

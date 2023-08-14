@@ -23,41 +23,28 @@ public class CharacterDiedScript : MonoBehaviour
 
     public void RespawnDeath()
     {
-
-        if (!hasRespawned)
+        if (GoldBarScript.currentGold > 49)
         {
-            
-            if (GoldBarScript.currentGold > 49)
-            {
-                //GoldBarScript.instance.DecreaseGold(50);
-                //CharacterEvents.characterDied.Invoke(gameObject, 50);
-                Debug.Log("1");
-                //RespawnFX();
-                
-            }
-            else
-            {
-                //GoldBarScript.instance.DecreaseGold(GoldBarScript.currentGold);
-                //CharacterEvents.characterDied.Invoke(gameObject, GoldBarScript.currentGold);
-                Debug.Log("2");
-                //RespawnFX();
-                
-            }
-            hasRespawned = true;
-            AudioSource.PlayClipAtPoint(respawnNoise, gameObject.transform.position, volume);
+            GoldBarScript.instance.DecreaseGold(50);
+            CharacterEvents.characterDied.Invoke(gameObject, 50);
+            Debug.Log("1");
+            RespawnFX();
 
-            PlayerController playerController = GetComponent<PlayerController>();
-          
         }
-        else if (hasRespawned)
+        else
         {
-        Debug.Log("3");
-        //hasRespawned = false;
-        //return;
+            GoldBarScript.instance.DecreaseGold(GoldBarScript.currentGold);
+            CharacterEvents.characterDied.Invoke(gameObject, GoldBarScript.currentGold);
+            Debug.Log("2");
+            RespawnFX();
+
         }
-        //hasRespawned = false;
-        Debug.Log("4");
-        //return;
+        hasRespawned = true;
+        AudioSource.PlayClipAtPoint(respawnNoise, gameObject.transform.position, volume);
+
+        PlayerController playerController = GetComponent<PlayerController>();
+
+        
     }
     
     public void RespawnFX()
