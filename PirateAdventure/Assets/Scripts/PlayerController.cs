@@ -60,7 +60,9 @@ public class PlayerController : MonoBehaviour
     [SerializeField]
     private bool _isMoving = false;
 
-    public bool IsMoving { get
+    public bool IsMoving 
+    { 
+        get
         {
             return _isMoving;
         }
@@ -128,13 +130,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    //public bool IsAlive
-    //{
-    //    get
-    //    {
-    //        return animator.GetBool(AnimationsStrings.isAlive);
-    //    }
-   // }
 
     private void Awake()
     {
@@ -156,6 +151,7 @@ public class PlayerController : MonoBehaviour
             
 
         animator.SetFloat(AnimationsStrings.yVelocity, rb.velocity.y);
+        //rb.velocity = new Vector2(rb.velocity.x, jumpModifier);
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -171,8 +167,6 @@ public class PlayerController : MonoBehaviour
         else
         {
             IsMoving = false;
-            
-
         }
     }
 

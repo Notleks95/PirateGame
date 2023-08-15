@@ -27,5 +27,11 @@ public class InteractionScript : MonoBehaviour
             respawnPoint = playerPosition.transform.position;
             Destroy(collision.gameObject, 2f);
         }
+
+        if (collision.gameObject.CompareTag("Water"))
+        {
+            Debug.Log("Underwater!");
+
+        }
     }
 }
