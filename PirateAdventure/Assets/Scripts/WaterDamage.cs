@@ -28,7 +28,7 @@ public class WaterDamage : MonoBehaviour
         Damageable damageable = damageablePlayer.GetComponent<Damageable>();
         Debug.Log("1");
 
-        while (collision.gameObject.CompareTag("WaterDetector"))
+        if (collision.gameObject.CompareTag("WaterDetector"))
         {
             //hit target
             StartCoroutine(UnderwaterDamage(damageTime));
@@ -43,10 +43,14 @@ public class WaterDamage : MonoBehaviour
     }
     IEnumerator UnderwaterDamage(float damageTime)
     {
-        Debug.Log("2r");
-        Damageable damageable = damageablePlayer.GetComponent<Damageable>();
-        bool gotHit = damageable.Hit(waterDamage, knockback);
-        yield return new WaitForSeconds(damageTime);
+        //while()
+        {
+            Debug.Log("2r");
+            Damageable damageable = damageablePlayer.GetComponent<Damageable>();
+            bool gotHit = damageable.Hit(waterDamage, knockback);
+            yield return new WaitForSeconds(damageTime);
+        }    
+            
     }
 
 

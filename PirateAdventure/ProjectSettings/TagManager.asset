@@ -26,8 +26,8 @@ TagManager:
   - GroundDetection
   - Pickup
   - Background
-  - 
-  - LeavesHitbox
+  - Water hitbox
+  - WaterDetector
   - 
   - 
   - 
