@@ -11,6 +11,11 @@ TagManager:
   - Checkpoint
   - Water
   - WaterDetector
+  - OutOfMap
+  - EndOfMap
+  - QM1
+  - QM2
+  - Nav
   layers:
   - Default
   - TransparentFX

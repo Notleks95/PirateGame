@@ -4,52 +4,54 @@ using UnityEngine;
 
 public class WaterDamage : MonoBehaviour
 {
-    public float damageTime = 1f;
+    public float damageTime = 2f;
     public int waterDamage = 5;
     public Vector2 knockback = Vector2.zero;
-    
 
     Damageable damageable;
     public GameObject damageablePlayer;
-
-    // Start is called before the first frame update
-    void Awake()
-    {
-        //GameObject player = GameObject.FindGameObjectWithTag("Player");
-
-        //        if (player == null)
-        //      {
-        //        Debug.Log("No player found in scene. Ensure player is tagged 'Player'");
-        //  }        
-    }
+    private Coroutine _damageCoroutine; // = null;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Damageable damageable = damageablePlayer.GetComponent<Damageable>();
-        Debug.Log("1");
+        Debug.Log("There's a collision");
 
         if (collision.gameObject.CompareTag("WaterDetector"))
         {
-            //hit target
-            StartCoroutine(UnderwaterDamage(damageTime));
-            Debug.Log(collision.name + " has water damage for " + waterDamage);
-            return;
-        }
-        //else
-        //{
-        //    Debug.Log(collision.name + " = Not water detector");
-        //}
+            //if (_damageCoroutine != null)
+            //{
+              //  StopCoroutine(_damageCoroutine);
+            //}
 
+            _damageCoroutine = StartCoroutine(UnderwaterDamage());
+            Debug.Log("Water damage!");
+        }
     }
-    IEnumerator UnderwaterDamage(float damageTime)
+
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        //while()
+        if (collision.gameObject.CompareTag("WaterDetector"))
         {
-            Debug.Log("2r");
+            if (_damageCoroutine !=null)
+            {
+                StopCoroutine(_damageCoroutine);
+                Debug.Log("no more water damage");
+            }
+            
+        }
+    }
+
+    IEnumerator UnderwaterDamage()
+    {
+        var wait = new WaitForSeconds(2);
+        while(true)
+        {
+            Debug.Log("We waited 2 sec and then took damage");
             Damageable damageable = damageablePlayer.GetComponent<Damageable>();
             bool gotHit = damageable.Hit(waterDamage, knockback);
-            yield return new WaitForSeconds(damageTime);
-        }    
+            yield return wait;
+        }
             
     }
 

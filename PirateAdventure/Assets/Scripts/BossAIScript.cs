@@ -9,6 +9,7 @@ public class BossAIScript : MonoBehaviour
 {
     [Header("Pathfinding")]
     public Transform targetPlayer;
+    public Rigidbody2D targetRB;
     //how close player will be for activation
     public float activeDistance = 50f;
     //how often A* will update
@@ -95,6 +96,8 @@ public class BossAIScript : MonoBehaviour
     private void Update()
     {
         HasTarget = attackZone.detectedColliders.Count > 0;
+        
+        
 
         if (AttackCooldown > 0)
         {
@@ -141,14 +144,13 @@ public class BossAIScript : MonoBehaviour
         //Jump - 
         if (jumpEnabled && isGrounded)
         {
-            if (direction.y > jumpNodeHeightRequirement)
+            //direction.y > jumpNodeHeightRequirement
+            //float targetYVelocity = 
+            if (targetPlayer.position.y - 1f > rb.transform.position.y && targetRB.velocity.y == 0 && path.path.Count < 20)
             {
-                //anim.SetTrigger(AnimationsStrings.jumpTrigger);
-                anim.SetBool(AnimationsStrings.jumpTrigger, true);
-                rb.velocity = new Vector2(rb.velocity.x, jumpModifier);
-                
-                //rb.AddForce(Vector2.up * maxSpeed * jumpModifier);
-
+                //rb.velocity = new Vector2(rb.velocity.x, jumpModifier);
+                rb.AddForce(Vector2.up * maxSpeed * jumpModifier);
+                //anim.SetTrigger(AnimationsStrings.enemyJump);
             }
         }
         
@@ -319,7 +321,9 @@ public class BossAIScript : MonoBehaviour
     public void OnHit(int damage, Vector2 knockback)
     {
         rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
+        anim.SetTrigger(AnimationsStrings.hitTrigger);
     }
+
     public void OnDeath()
     {
         Vector3 coinposition = transform.position;
@@ -327,6 +331,6 @@ public class BossAIScript : MonoBehaviour
         //coin appears in place
         Instantiate(coinPrefab, coinposition, Quaternion.identity);
     }
-
+    
 
 }

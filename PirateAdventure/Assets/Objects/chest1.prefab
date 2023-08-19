@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87d6525af3b526445a629a5d09a467e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 100
+  value: 50
   anim: {fileID: 3191142005887653628}
   pickupSource: {fileID: 8300000, guid: c35df3122f20f7246a63e51e086057cd, type: 3}
   volume: 1

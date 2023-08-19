@@ -7,6 +7,7 @@ public class FloatingText : MonoBehaviour
 {
     public Vector3 moveSpeed = new Vector3(0, 75, 0);
     public float timeToFade = 1f;
+    public bool moveWithFade = true;
 
     RectTransform textTransform;
     TextMeshProUGUI textMeshPro;
@@ -24,7 +25,11 @@ public class FloatingText : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        textTransform.position += moveSpeed * Time.deltaTime;
+        if(moveWithFade)
+        {
+            textTransform.position += moveSpeed * Time.deltaTime;
+        }
+        
         timeElapsed += Time.deltaTime;
 
         if(timeElapsed <timeToFade)

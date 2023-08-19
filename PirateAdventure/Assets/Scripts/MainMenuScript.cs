@@ -32,4 +32,6 @@ public class MainMenuScript : MonoBehaviour
         
         SceneManager.LoadScene("Start");
     }
+
+    
 }

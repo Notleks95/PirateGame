@@ -323,7 +323,7 @@ MonoBehaviour:
   maxSpeed: 1500
   walkAcceleration: 3
   nextWaypointDistance: 2
-  jumpNodeHeightRequirement: 2
+  jumpNodeHeightRequirement: 1
   jumpModifier: 0.1
   jumpCheckOffset: 0.1
   followEnabled: 1

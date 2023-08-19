@@ -246,7 +246,6 @@ public class PlayerController : MonoBehaviour
             
         //characterDied.hasRespawned = false;
         yield break;
-        
-        
+
     }
 }

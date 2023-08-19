@@ -276,7 +276,7 @@ Transform:
   m_GameObject: {fileID: 8674259635457692126}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -104.462395, y: 0.2754898, z: 0}
-  m_LocalScale: {x: 0.532097, y: 0.5375129, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8065799869898319107}
@@ -442,6 +442,7 @@ MonoBehaviour:
   _maxHealth: 100
   _health: 100
   _isAlive: 1
+  _isDead: 1
   isInvincible: 0
   invincibilityTime: 0.25
 --- !u!114 &504983236641378090

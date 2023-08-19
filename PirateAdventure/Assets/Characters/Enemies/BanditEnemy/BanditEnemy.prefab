@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1022399758245503586}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.17, y: -2.42, z: 0}
+  m_LocalPosition: {x: 0.21, y: -1.88, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -48,8 +48,8 @@ MonoBehaviour:
   noCollidersRemain:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8136768514444084112}
-        m_TargetAssemblyTypeName: KnightScript, Assembly-CSharp
+      - m_Target: {fileID: 3366979185695610393}
+        m_TargetAssemblyTypeName: EnemyScript, Assembly-CSharp
         m_MethodName: OnCliffDetected
         m_Mode: 1
         m_Arguments:
@@ -99,9 +99,9 @@ GameObject:
   - component: {fileID: 5054688803054673375}
   - component: {fileID: 7825364362005471417}
   - component: {fileID: 8583672576626017121}
-  - component: {fileID: 8621409836765971316}
+  - component: {fileID: 7979705572107710575}
   - component: {fileID: 8274828669196099889}
-  - component: {fileID: 8136768514444084112}
+  - component: {fileID: 3366979185695610393}
   - component: {fileID: 4131890570926992871}
   m_Layer: 8
   m_Name: BanditEnemy
@@ -197,9 +197,9 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!70 &8583672576626017121
 CapsuleCollider2D:
@@ -214,10 +214,10 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.016792297, y: -0.32}
-  m_Size: {x: 0.93714905, y: 3.6646528}
+  m_Offset: {x: -0.05704878, y: -0.08}
+  m_Size: {x: 1.221764, y: 3.146374}
   m_Direction: 0
---- !u!114 &8621409836765971316
+--- !u!114 &7979705572107710575
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -244,7 +244,7 @@ MonoBehaviour:
     minNormalAngle: 0
     maxNormalAngle: 0
   groundDistance: 0.05
-  wallDistance: 0.5
+  wallDistance: 0.2
   ceilingDistance: 0.05
   _isGrounded: 0
   _isOnWall: 0
@@ -264,8 +264,8 @@ MonoBehaviour:
   damageableHit:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8136768514444084112}
-        m_TargetAssemblyTypeName: KnightScript, Assembly-CSharp
+      - m_Target: {fileID: 3366979185695610393}
+        m_TargetAssemblyTypeName: EnemyScript, Assembly-CSharp
         m_MethodName: OnHit
         m_Mode: 0
         m_Arguments:
@@ -288,7 +288,7 @@ MonoBehaviour:
   _isDead: 1
   isInvincible: 0
   invincibilityTime: 0.1
---- !u!114 &8136768514444084112
+--- !u!114 &3366979185695610393
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkAcceleration: 30
-  maxSpeed: 5
+  maxSpeed: 3
   walkStopRate: 0.05
   coinPrefab: {fileID: 3075645008568669504, guid: b27dcbde9dea27949acb373a56cda47d, type: 3}
   attackZone: {fileID: 1454360244554524147}
@@ -353,7 +353,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7766048526960453072}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.71, y: -2.35, z: 0}
+  m_LocalPosition: {x: -0.76, y: -1.84, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
