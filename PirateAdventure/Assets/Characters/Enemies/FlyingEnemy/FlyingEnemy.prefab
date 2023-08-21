@@ -182,8 +182,8 @@ MonoBehaviour:
   healthChange:
     m_PersistentCalls:
       m_Calls: []
-  _maxHealth: 20
-  _health: 20
+  _maxHealth: 50
+  _health: 50
   _isAlive: 1
   _isDead: 1
   isInvincible: 0
@@ -331,7 +331,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 15
-  knockback: {x: 0, y: 2}
+  knockback: {x: 1, y: 0}
 --- !u!1 &4742741602641678833
 GameObject:
   m_ObjectHideFlags: 0

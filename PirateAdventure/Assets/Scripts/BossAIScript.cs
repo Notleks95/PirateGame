@@ -82,14 +82,7 @@ public class BossAIScript : MonoBehaviour
             }
 
             anim.SetFloat(AnimationsStrings.yVelocity, rb.velocity.y);
-        }
-
-//        if (touchingDirections.IsGrounded && touchingDirections.IsOnWall)
-  //      {
-    //        FlipDirection();
-      //  }
-
-        
+        }        
 
     }
 
@@ -112,7 +105,6 @@ public class BossAIScript : MonoBehaviour
         if (followEnabled && TargetInDistance() && seeker.IsDone())
         {
             //enemy position, target position, 
-            //seeker.StartPath(rb.position, target.position, OnPathComplete);
             Vector2 dot = (Vector2)(targetPlayer.position - transform.position);
             startPathPos = rb.position - (Vector2)(transform.up * transform.localScale.y * 1.27f) + Vector2.right * (Mathf.Sign(dot.x) * 2);
             seeker.StartPath(startPathPos, targetPlayer.transform.position, OnPathComplete);
@@ -161,11 +153,11 @@ public class BossAIScript : MonoBehaviour
             {
                 //rb.AddForce(force);
                 IsMoving = force != Vector2.zero;
-                if (!isGrounded) force.y = 0;
-                rb.AddForce(force);
-                //rb.velocity = Vector2.SmoothDamp(rb.velocity, force, ref currentVelocity, 0.5f);
-
-                //rb.velocity = new Vector2(Mathf.Clamp(rb.velocity.x + (walkAcceleration * walkDirectionVector.x * Time.fixedDeltaTime), -maxSpeed, maxSpeed), rb.velocity.y);
+                if (!isGrounded)
+                {
+                    force.y = 0;
+                    rb.AddForce(force);
+                }
             }
             else
             {
@@ -202,21 +194,6 @@ public class BossAIScript : MonoBehaviour
     }
 
 
-    //Script from KnightScript
-
-    //public bool _isAlive = true;
-    //public bool IsAlive
-    //{
-//        get
-  //      {
-    //        return _isAlive;
-      //  }
-        //set
-//        {
-  //          _isAlive = value;
-    //        anim.GetBool(AnimationsStrings.isAlive);
-      //  }
-   // }
 
     [SerializeField]
     private bool _isMoving = false;

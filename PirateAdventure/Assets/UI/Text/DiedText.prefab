@@ -34,9 +34,9 @@ RectTransform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -134.4, y: -14.7}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -145, y: 44}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5126280833649008047
@@ -67,7 +67,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Your crew saved you!                 But you lost gold...
+  m_text: Your crew saved you! But you lost gold...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8cc1e5d5ec0585a40a9cb8eeb39667db, type: 2}
   m_sharedMaterial: {fileID: 4676452524039322041, guid: 8cc1e5d5ec0585a40a9cb8eeb39667db, type: 2}
@@ -94,12 +94,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 60
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -150,3 +150,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: {x: 100, y: 0, z: 0}
   timeToFade: 3
+  moveWithFade: 0

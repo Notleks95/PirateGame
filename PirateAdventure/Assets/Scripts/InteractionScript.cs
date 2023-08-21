@@ -72,6 +72,11 @@ public class InteractionScript : MonoBehaviour
         {
             StartCoroutine("NavText");
         }
+
+        if (collision.CompareTag("Checkpoint"))
+        {
+            StartCoroutine("CheckpointText");
+        }
     }
 
     private IEnumerator FinishGame()
@@ -83,12 +88,12 @@ public class InteractionScript : MonoBehaviour
     IEnumerator EntryText1()
     {
         Vector3 spawnPosition = Camera.main.WorldToScreenPoint(playerPosition.transform.position);
-        speechText.text = "Cap'n! Our Navigator's gone and gotten 'imself lost! Can ye find 'im and bring him back to the ship? I'll meet you on the other side of the island!";
+        speechText.text = "Cap'n! We need gold and we need our Navigator! Can ye find 'im and bring him back to the ship? I'll meet you on the other side of the island!";
         TMP_Text tmpText = Instantiate(speechText, spawnPosition, Quaternion.identity, gameCanvas.transform).GetComponent<TMP_Text>();
         yield return new WaitForSeconds(wait);
         Destroy(tmpText);
 
-        speechText.text = "Careful! The pirates of this island are mean, but if ye can beat 'em, they carry a lot of gold!";
+        speechText.text = "The pirates of this island are mean, but if ye can beat 'em, they carry a lot of gold!";
         TMP_Text tmpText2 = Instantiate(speechText, spawnPosition, Quaternion.identity, gameCanvas.transform).GetComponent<TMP_Text>();
         yield return new WaitForSeconds(wait);
         Destroy(tmpText2);
@@ -109,6 +114,15 @@ public class InteractionScript : MonoBehaviour
     {
         Vector3 spawnPosition = Camera.main.WorldToScreenPoint(playerPosition.transform.position);
         speechText.text = "Ahoy Cap'n! There's a real nasty one ahead, I ain't got the skill to fight 'em! I'll sneak out while you distract 'em!";
+        TMP_Text tmpText = Instantiate(speechText, spawnPosition, Quaternion.identity, gameCanvas.transform).GetComponent<TMP_Text>();
+        yield return new WaitForSeconds(wait);
+        Destroy(tmpText);
+    }
+
+        IEnumerator CheckpointText()
+    {
+        Vector3 spawnPosition = Camera.main.WorldToScreenPoint(playerPosition.transform.position);
+        speechText.text = "Checkpoint Reached!";
         TMP_Text tmpText = Instantiate(speechText, spawnPosition, Quaternion.identity, gameCanvas.transform).GetComponent<TMP_Text>();
         yield return new WaitForSeconds(wait);
         Destroy(tmpText);

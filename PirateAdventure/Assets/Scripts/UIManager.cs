@@ -69,8 +69,8 @@ public class UIManager : MonoBehaviour
 
     public void CharacterDied(GameObject character, int goldAcquired)
     {
-        //Text at respawn point
-        Vector3 spawnPosition = Camera.main.WorldToScreenPoint(character.transform.position);
+        //Text middle of screen
+        Vector3 spawnPosition = Camera.main.ViewportToScreenPoint(new Vector2(0.5f, 0.5f));
 
         TMP_Text tmpText = Instantiate(goldTextPrefab, spawnPosition, Quaternion.identity, gameCanvas.transform).GetComponent<TMP_Text>();
         tmpText.text = "-" + goldAcquired.ToString();

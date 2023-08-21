@@ -47,7 +47,6 @@ public class HealthBarScript : MonoBehaviour
     }
 
 
-    
 
     private void OnPlayerHealthChanged(int newHealth, int maxHealth)
     {
