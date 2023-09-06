@@ -18,7 +18,6 @@ public class HealthPickup : MonoBehaviour
         pickupSource = GetComponent<AudioClip>();
     }
 
-    // Update is called once per frame
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Damageable damageable = collision.GetComponent<Damageable>();

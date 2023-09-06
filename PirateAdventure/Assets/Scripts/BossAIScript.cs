@@ -10,22 +10,18 @@ public class BossAIScript : MonoBehaviour
     [Header("Pathfinding")]
     public Transform targetPlayer;
     public Rigidbody2D targetRB;
-    //how close player will be for activation
+    //How close player will be for activation of path finding
     public float activeDistance = 50f;
-    //how often A* will update
+    //How often path will update
     public float pathUpdateSeconds = 0.5f;
 
-
     [Header("Physics")]
-    public float maxSpeed = 1500f;
+    public float maxSpeed = 300f;
     public float walkAcceleration = 3f;
-    //how far enemy is from next waypoint to move in that direction (instead of current)
     public float nextWaypointDistance = 2f;
-    //how vertical next node needs to be for enemy to jump
+    //How vertical next node needs to be for enemy to jump
     public float jumpNodeHeightRequirement = 2f;
-    //setting how high jump is
     public float jumpModifier = 0.1f;
-    public float jumpCheckOffset = 0.1f;
 
     [Header("Custom Behaviour")]
     public bool followEnabled = true;
@@ -35,25 +31,19 @@ public class BossAIScript : MonoBehaviour
     public GameObject coinPrefab;
     public DetectionZone attackZone;
 
-
     private Path path;
-    private Vector2 currentVelocity;
     private int currentWaypoint = 0;
-    //bool onGround = true;
     Seeker seeker;
     Rigidbody2D rb;
     Animator anim;
     Collider2D coll;
     Damageable damageable;
-    TouchingDirections touchingDirections;
-
 
     private bool TargetInDistance()
     {
         return Vector2.Distance(transform.position, targetPlayer.transform.position) < activeDistance;
     }
 
-    // Start is called before the first frame update
     void Awake()
     {
         seeker = GetComponent<Seeker>();
@@ -61,8 +51,7 @@ public class BossAIScript : MonoBehaviour
         anim = GetComponent<Animator>();
         coll = GetComponent<Collider2D>();
         damageable = GetComponent<Damageable>();
-        touchingDirections = GetComponent<TouchingDirections>();
-        //keeps repeating script based on coroutine based on pathUpdateSeconds (so not running always)
+        //Repeats script based on coroutine based on pathUpdateSeconds
         InvokeRepeating("UpdatePath", 0f, pathUpdateSeconds);
     }
 
@@ -71,7 +60,6 @@ public class BossAIScript : MonoBehaviour
         damageable.damageableDeath.AddListener(OnDeath);
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         if (!damageable.LockVelocity)
@@ -80,7 +68,6 @@ public class BossAIScript : MonoBehaviour
             {
                 PathFollow();
             }
-
             anim.SetFloat(AnimationsStrings.yVelocity, rb.velocity.y);
         }        
 
@@ -89,9 +76,6 @@ public class BossAIScript : MonoBehaviour
     private void Update()
     {
         HasTarget = attackZone.detectedColliders.Count > 0;
-        
-        
-
         if (AttackCooldown > 0)
         {
             AttackCooldown -= Time.deltaTime;
@@ -104,7 +88,6 @@ public class BossAIScript : MonoBehaviour
     {
         if (followEnabled && TargetInDistance() && seeker.IsDone())
         {
-            //enemy position, target position, 
             Vector2 dot = (Vector2)(targetPlayer.position - transform.position);
             startPathPos = rb.position - (Vector2)(transform.up * transform.localScale.y * 1.27f) + Vector2.right * (Mathf.Sign(dot.x) * 2);
             seeker.StartPath(startPathPos, targetPlayer.transform.position, OnPathComplete);
@@ -115,57 +98,57 @@ public class BossAIScript : MonoBehaviour
 
     private void PathFollow()
     {
-        //check path not null and final waypoint isnt over
         if (path == null)
         {
             return;
         }
-        //reached end of path
+        //Check if reached end of path
         if (currentWaypoint >= path.vectorPath.Count)
         {
             return;
         }
-
-        //check if collision (raycast returns true if collision)
+        //Check for ground collision
         RaycastHit2D isGrounded = Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0, Vector2.down, 0.1f, Ground);
-
-        //calculate direction
+        //Calculate direction to take
         Vector2 direction = ((Vector2)path.vectorPath[currentWaypoint] - rb.position).normalized;
         Vector2 force = direction * maxSpeed * Time.deltaTime;
-
-        //Jump - 
+        //Jump 
         if (jumpEnabled && isGrounded)
         {
-            //direction.y > jumpNodeHeightRequirement
-            //float targetYVelocity = 
             if (targetPlayer.position.y - 1f > rb.transform.position.y && targetRB.velocity.y == 0 && path.path.Count < 20)
             {
-                //rb.velocity = new Vector2(rb.velocity.x, jumpModifier);
                 rb.AddForce(Vector2.up * maxSpeed * jumpModifier);
-                //anim.SetTrigger(AnimationsStrings.enemyJump);
             }
         }
-        
+
         //Movement
         if (!damageable.LockVelocity)
         {
             if (CanMove)
             {
-                //rb.AddForce(force);
+                rb.AddForce(Vector2.right * direction, ForceMode2D.Impulse);
                 IsMoving = force != Vector2.zero;
-                if (!isGrounded)
+                if (rb.velocity.x > maxSpeed)
                 {
-                    force.y = 0;
-                    rb.AddForce(force);
+                    rb.velocity = new Vector2(maxSpeed, rb.velocity.y);
                 }
-            }
-            else
-            {
-                rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, walkStopRate), rb.velocity.y);
+                else if (rb.velocity.x < maxSpeed * (-1))
+                {
+                    rb.velocity = new Vector2(maxSpeed * (-1), rb.velocity.y);
+                }
+                
+                // if (!isGrounded)
+                //  {
+                //       force.y = 0;
+                //       rb.AddForce(force);
+                //   }
+                //  }
+                //  else
+                //  {
+                //      rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, walkStopRate), rb.velocity.y);
+                //  }
             }
         }
-
-
         //Next waypoint
         float distance = Vector2.Distance(rb.position, path.vectorPath[currentWaypoint]);
         if (distance < nextWaypointDistance)
@@ -173,7 +156,7 @@ public class BossAIScript : MonoBehaviour
             currentWaypoint++;
         }
 
-        //Direction Graphics handling if we want to flip the sprite
+        //Direction Graphics handling to flip the sprite
           if (directionLookenabled)
           {
             if (rb.velocity.x > 0.05f)
@@ -192,8 +175,6 @@ public class BossAIScript : MonoBehaviour
         path = p;
         currentWaypoint = 0;
     }
-
-
 
     [SerializeField]
     private bool _isMoving = false;
@@ -245,9 +226,7 @@ public class BossAIScript : MonoBehaviour
         }
 
     }
-
     public enum WalkableDirection { Right, Left }
-
     private WalkableDirection _walkDirection;
     private Vector2 walkDirectionVector = Vector2.right;
 
@@ -261,7 +240,6 @@ public class BossAIScript : MonoBehaviour
         {
             if (_walkDirection != value)
             {
-                //direction flipped
                 gameObject.transform.localScale = new Vector2(gameObject.transform.localScale.x * -1, gameObject.transform.localScale.y);
 
                 if (value == WalkableDirection.Right)
@@ -272,9 +250,7 @@ public class BossAIScript : MonoBehaviour
                 {
                     walkDirectionVector = Vector2.left;
                 }
-
             }
-
             _walkDirection = value;
         }
     }
@@ -294,7 +270,6 @@ public class BossAIScript : MonoBehaviour
             Debug.LogError("Current walkable direction is not set to legal values of right or left.");
         }
     }
-
     public void OnHit(int damage, Vector2 knockback)
     {
         rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
@@ -304,10 +279,6 @@ public class BossAIScript : MonoBehaviour
     public void OnDeath()
     {
         Vector3 coinposition = transform.position;
-
-        //coin appears in place
         Instantiate(coinPrefab, coinposition, Quaternion.identity);
     }
-    
-
 }

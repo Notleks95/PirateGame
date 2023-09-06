@@ -7,8 +7,7 @@ public class SpeechScript : MonoBehaviour
 {
     public GameObject speechPrefab;
     public TMP_Text speechText;
-
-    public int wait =2;
+    public int wait =3;
     
     
     private void OnTriggerEnter2D(Collider2D collision)
@@ -29,7 +28,6 @@ public class SpeechScript : MonoBehaviour
             {
                 StartCoroutine("NavText");
             }
-            
         }
     }
 
@@ -56,6 +54,4 @@ public class SpeechScript : MonoBehaviour
         yield return new WaitForSeconds(wait);
         Destroy(speechText);
     }
-
-
 }

@@ -11,18 +11,13 @@ public class FlyingEnemyScript : MonoBehaviour
     public Collider2D deathCollider;
     public List<Transform> waypoints;
     public GameObject coinPrefab;
-
     Animator animator;
     Rigidbody2D rb;
     Damageable damageable;
-
     Transform nextWaypoint;
     int waypointNum = 0;
 
-
     public bool _hasTarget = false;
-    
-
     public bool HasTarget
     {
         get
@@ -54,7 +49,6 @@ public class FlyingEnemyScript : MonoBehaviour
         {
             animator.SetFloat(AnimationsStrings.attackCooldown, Mathf.Max(value, 0));
         }
-
     }
 
     private void Awake()
@@ -74,7 +68,6 @@ public class FlyingEnemyScript : MonoBehaviour
         damageable.damageableDeath.AddListener(OnDeath);
     }
 
-    // Update is called once per frame
     void Update()
     {
         HasTarget = biteDetectionZone.detectedColliders.Count > 0;
@@ -105,49 +98,37 @@ public class FlyingEnemyScript : MonoBehaviour
     {
         //Fly to Waypoint
         Vector2 directionToWaypoint = (nextWaypoint.position - transform.position).normalized;
-
-        //check if we've reached it already
+        //Check if we've reached it
         float distance = Vector2.Distance(nextWaypoint.position, transform.position);
-
         rb.velocity = directionToWaypoint * flightSpeed;
         UpdateDirection();
-
-
-        //See if need to switch waypoints
         if(distance <= waypointReachedDistance)
         {
             waypointNum++;
 
             if(waypointNum > waypoints.Count)
             {
-                //loop to original waypoint
                 waypointNum = 0;
             }
-
             nextWaypoint = waypoints[waypointNum];
         }
-
     }
 
     private void UpdateDirection()
     {
         Vector3 locScale = transform.localScale;
-        
         if(transform.localScale.x >0)
         {
-            //facing right
             if(rb.velocity.x <0)
             {
-                //Flip
+                //Flip to face direction
                 transform.localScale = new Vector3(-1 * locScale.x, locScale.y, locScale.z);
             }
         }
         else
         {
-            //facing left
             if (rb.velocity.x > 0)
             {
-                //Flip
                 transform.localScale = new Vector3(-1 * locScale.x, locScale.y, locScale.z);
             }
         }
@@ -156,13 +137,9 @@ public class FlyingEnemyScript : MonoBehaviour
     public void OnDeath()
     {
         Vector3 coinposition = transform.position;
-
-        //dead enemy falls to ground
         rb.gravityScale = 2f;
         rb.velocity = new Vector2(0, rb.velocity.y);
         deathCollider.enabled = true;
-
-        //coin appears in place
         Instantiate(coinPrefab, coinposition, Quaternion.identity);
     }
 }

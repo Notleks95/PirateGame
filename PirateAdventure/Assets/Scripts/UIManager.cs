@@ -12,7 +12,6 @@ public class UIManager : MonoBehaviour
     public GameObject healthTextPrefab;
     public GameObject goldTextPrefab;
     public GameObject CharacterDeathPrefab;
-
     public Canvas gameCanvas;
 
     private void Awake()
@@ -76,8 +75,5 @@ public class UIManager : MonoBehaviour
         tmpText.text = "-" + goldAcquired.ToString();
         
         TMP_Text tmpText2 = Instantiate(CharacterDeathPrefab, spawnPosition, Quaternion.identity, gameCanvas.transform).GetComponent<TMP_Text>();
-
-    }
-
-    
+    }    
 }

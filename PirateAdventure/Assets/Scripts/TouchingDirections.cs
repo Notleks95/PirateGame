@@ -8,14 +8,11 @@ public class TouchingDirections : MonoBehaviour
     public float groundDistance = 0.05f;
     public float wallDistance = 0.9f;
     public float ceilingDistance = 0.05f;
-
     Collider2D touchingCol;
     Animator animator;
-
     RaycastHit2D[] groundHits = new RaycastHit2D[5];
     RaycastHit2D[] wallHits = new RaycastHit2D[5];
     RaycastHit2D[] ceilingHits = new RaycastHit2D[5];
-    
 
     [SerializeField]
     private bool _isGrounded; 
@@ -70,8 +67,6 @@ public class TouchingDirections : MonoBehaviour
         touchingCol = GetComponent<Collider2D>();
         animator = GetComponent<Animator>();
     }
-   
-    // Update is called once per frame
       void FixedUpdate()
     {
         IsGrounded = touchingCol.Cast(Vector2.down, castFilter, groundHits, groundDistance) > 0;

@@ -12,16 +12,11 @@ public class PlayerController : MonoBehaviour
     public float runSpeed = 10f;
     public float airWalkSpeed = 5f;
     public float jumpImpulse = 10f;
-    //public GameObject characterPlayer;
     Vector2 moveInput;
     TouchingDirections touchingDirections;
     Damageable damageable;
-
     Rigidbody2D rb;
     Animator animator;
-    //CharacterDiedScript characterDiedScript;
-
-
 
     public float CurrentMoveSpeed
     { get
@@ -36,30 +31,24 @@ public class PlayerController : MonoBehaviour
                     }
                     else
                     {
-                        //AirMove
                         return airWalkSpeed;
                     }   
                 }
                 else
                 {
-                    //idle speed is 0
                     return 0;
                 }
             }
             else
             {
-                //movement locked
                 return 0;
             }
-            
-            
         }
     }
 
 
     [SerializeField]
     private bool _isMoving = false;
-
     public bool IsMoving 
     { 
         get
@@ -75,7 +64,6 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField]
     private bool _isRunning = false;
-
     public bool IsRunning
     {
         get
@@ -90,7 +78,6 @@ public class PlayerController : MonoBehaviour
     }
 
     public bool _isFacingRight = true;
-
     public bool IsFacingRight 
     { 
         get 
@@ -101,7 +88,7 @@ public class PlayerController : MonoBehaviour
         {
             if (_isFacingRight != value)
             {
-                //flip local scale to make player face other direction
+                //Flip local scale to make player face other direction
                 transform.localScale *= new Vector2(-1, 1);
             }
 
@@ -130,28 +117,21 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         touchingDirections = GetComponent<TouchingDirections>();
         damageable = GetComponent<Damageable>();
-        
-
     }
 
-   
     private void FixedUpdate()
     {
         if(!damageable.LockVelocity)
         {
             rb.velocity = new Vector2(moveInput.x * CurrentMoveSpeed, rb.velocity.y);
-        }
-            
-
+        } 
         animator.SetFloat(AnimationsStrings.yVelocity, rb.velocity.y);
-        //rb.velocity = new Vector2(rb.velocity.x, jumpModifier);
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -174,12 +154,10 @@ public class PlayerController : MonoBehaviour
     {
         if (moveInput.x > 0 && !IsFacingRight)
         {
-            //Face right
             IsFacingRight = true;
         }
         else if (moveInput.x < 0 && IsFacingRight)
         {
-            //Face left
             IsFacingRight = false;
         }
     }
@@ -195,17 +173,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    //could add double jump here later
     public void OnJump(InputAction.CallbackContext context)
     {
-        //todo check if alive too
         if(context.started && touchingDirections.IsGrounded && CanMove)
         {
             animator.SetTrigger(AnimationsStrings.jumpTrigger);
             rb.velocity = new Vector2(rb.velocity.x, jumpImpulse);
         }
     }
-
 
     public void OnAttack(InputAction.CallbackContext context)
     {
@@ -214,7 +189,6 @@ public class PlayerController : MonoBehaviour
             animator.SetTrigger(AnimationsStrings.attackTrigger);
         }
     }
-
 
     public void OnHit(int damage, Vector2 knockback)
     {
@@ -227,15 +201,10 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool(AnimationsStrings.isAlive, true);
             StartCoroutine(OnDeath());
-            
-        }
-            
+        }        
     }
-    //IsAlive = false;
-      //          IsDead = true;
+
     public CharacterDiedScript characterDied;
-
-
     private IEnumerator OnDeath()
     {
         yield return new WaitForSeconds(2);
@@ -243,9 +212,6 @@ public class PlayerController : MonoBehaviour
         animator.SetBool(AnimationsStrings.lockVelocity, false);
         animator.SetBool(AnimationsStrings.isAlive, true);
         characterDied.RespawnDeath();
-            
-        //characterDied.hasRespawned = false;
         yield break;
-
     }
 }

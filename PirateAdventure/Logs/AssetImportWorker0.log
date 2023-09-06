@@ -1,0 +1,438 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 8045 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Ana/Documents/GitHub/PirateGame/PirateAdventure
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50811
+Successfully changed project path to: C:/Users/Ana/Documents/GitHub/PirateGame/PirateAdventure
+C:/Users/Ana/Documents/GitHub/PirateGame/PirateAdventure
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12176] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 2093225587 [EditorId] 2093225587 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LH9DSS3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12176] Host "[IP] 192.168.1.100 [Port] 0 [Flags] 2 [Guid] 2093225587 [EditorId] 2093225587 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-LH9DSS3) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 617.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Ana/Documents/GitHub/PirateGame/PirateAdventure/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) R5 M430 (ID=0x6660)
+    Vendor:   ATI
+    VRAM:     2039 MB
+    Driver:   21.19.512.4
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.057876 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 738 ms
+Refreshing native plugins compatible for Editor in 356.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.031 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3032ms)
+		BeginReloadAssembly (311ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (2285ms)
+			LoadAssemblies (310ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (1862ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (914ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (356ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (422ms)
+				ProcessInitializeOnLoadMethodAttributes (165ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015357 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ana\Documents\GitHub\PirateGame\PirateAdventure\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ana\Documents\GitHub\PirateGame\PirateAdventure\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 514.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.498 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5502ms)
+		BeginReloadAssembly (228ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (27ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (4935ms)
+			LoadAssemblies (998ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (895ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (358ms)
+			SetupLoadedEditorAssemblies (2482ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (118ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (515ms)
+				BeforeProcessingInitializeOnLoad (439ms)
+				ProcessInitializeOnLoadAttributes (1109ms)
+				ProcessInitializeOnLoadMethodAttributes (284ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
+Refreshing native plugins compatible for Editor in 27.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5896 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (1.3 MB). Loaded Objects now: 6338.
+Memory consumption went from 239.5 MB to 238.1 MB.
+Total: 52.546400 ms (FindLiveObjects: 0.806800 ms CreateObjectMapping: 20.097900 ms MarkObjects: 28.101100 ms  DeleteObjects: 3.499000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 466382.174509 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour2/NoOutline/120x80_gifs/__CrouchAll.gif
+  artifactKey: Guid(dcff90903be079c4daf18849c050a023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour2/NoOutline/120x80_gifs/__CrouchAll.gif using Guid(dcff90903be079c4daf18849c050a023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e71c9948e7917f2f668da7ef9879e71f') in 0.416660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour1/NoOutline/120x80_gifs/__AttackNoMovement.gif
+  artifactKey: Guid(07f1559e4886910469a614074a04796e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour1/NoOutline/120x80_gifs/__AttackNoMovement.gif using Guid(07f1559e4886910469a614074a04796e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8bbd4d2a24508d16bcf309dd5d92dd5') in 0.047581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/9Sliced.png
+  artifactKey: Guid(8884154dfe85442a3a3578be807dbcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2/9Sliced.png using Guid(8884154dfe85442a3a3578be807dbcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8d9ae911f94e379f82ed2fbe48153c') in 0.082894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-SlicedWithBorder.png
+  artifactKey: Guid(cc35afd292fc349128b36a291fb3a165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-SlicedWithBorder.png using Guid(cc35afd292fc349128b36a291fb3a165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca04e34e1eb2732b4c515d58333815a') in 0.107885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__Attack2NoMovement.gif
+  artifactKey: Guid(e4e8cf194a0bbc2428af94a4c74a4c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__Attack2NoMovement.gif using Guid(e4e8cf194a0bbc2428af94a4c74a4c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d650f903ef65bd62e4d3dc0b448e2ae') in 0.055078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__Attack2NoMovement.gif
+  artifactKey: Guid(89631b5bbca4d8c47af7b6a8a5203bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__Attack2NoMovement.gif using Guid(89631b5bbca4d8c47af7b6a8a5203bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b398b30ce7e1f67bca998e33e16cd1e8') in 0.050652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour2/NoOutline/120x80_gifs/__Attack.gif
+  artifactKey: Guid(990bb55c7b43ac543a1f174e9fd86df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour2/NoOutline/120x80_gifs/__Attack.gif using Guid(990bb55c7b43ac543a1f174e9fd86df1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3227b8887bd9610c9e521b016afb585') in 0.061157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__CrouchWalk.gif
+  artifactKey: Guid(1241f637fd2b8e34bb89b7be227adb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__CrouchWalk.gif using Guid(1241f637fd2b8e34bb89b7be227adb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6207194d4308229b496a4794771f22e7') in 0.068145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__AttackCombo2hit.gif
+  artifactKey: Guid(03b49715c1a82674f867cd7e7bbd70be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__AttackCombo2hit.gif using Guid(03b49715c1a82674f867cd7e7bbd70be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a9a3ef0a1c6f55dd6a1082a43bc008') in 0.115607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour2/NoOutline/120x80_gifs/__CrouchTransition.gif
+  artifactKey: Guid(502639acb01db604a9e8e5ad4787dad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour2/NoOutline/120x80_gifs/__CrouchTransition.gif using Guid(502639acb01db604a9e8e5ad4787dad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa5c479ad8b51991b64527d04d3ece5') in 0.221243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour1/NoOutline/120x80_gifs/__AttackComboNoMovement.gif
+  artifactKey: Guid(3a602792f6e946946b4357bf6aee5df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour1/NoOutline/120x80_gifs/__AttackComboNoMovement.gif using Guid(3a602792f6e946946b4357bf6aee5df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f91cdd3e3abf8886e7fa5d9a11e848a') in 0.153367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__CrouchAttack.gif
+  artifactKey: Guid(60b48100cdade92448d96bde5fe4f1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__CrouchAttack.gif using Guid(60b48100cdade92448d96bde5fe4f1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdb49b3321eedd7a6e04cdadc18017b') in 0.068335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__Attack.gif
+  artifactKey: Guid(e817b247fd96d474e81d3051171a1842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__Attack.gif using Guid(e817b247fd96d474e81d3051171a1842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebc506a5b778f6943c7706438363186') in 0.215898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__AttackNoMovement.gif
+  artifactKey: Guid(d88d92cf7d782d2429abb70af611fc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__AttackNoMovement.gif using Guid(d88d92cf7d782d2429abb70af611fc59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353f160aa24af16d3b10bc1fb2566f63') in 0.097169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__CrouchTransition.gif
+  artifactKey: Guid(0f9d7b24fe104364aa122f557cc61b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__CrouchTransition.gif using Guid(0f9d7b24fe104364aa122f557cc61b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540999aceb8245bab6fcf912c313f87d') in 0.087607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour2/NoOutline/120x80_gifs/__AttackComboNoMovement.gif
+  artifactKey: Guid(523669f41849ccb4986070d00caa5c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour2/NoOutline/120x80_gifs/__AttackComboNoMovement.gif using Guid(523669f41849ccb4986070d00caa5c4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ababde7efafb3345cc227512b46580b') in 0.154090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour1/NoOutline/120x80_gifs/__CrouchTransition.gif
+  artifactKey: Guid(c3f67c2a598b1d044b5db0184013533f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour1/NoOutline/120x80_gifs/__CrouchTransition.gif using Guid(c3f67c2a598b1d044b5db0184013533f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8fa8ce374ee5d5530dc58b40d4420ca') in 0.062933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour2/NoOutline/120x80_gifs/__AttackCombo2hit.gif
+  artifactKey: Guid(185d08b933ec9fb459905fd1ccbe5c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour2/NoOutline/120x80_gifs/__AttackCombo2hit.gif using Guid(185d08b933ec9fb459905fd1ccbe5c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74f4a121a6dcd885c1e7fd7ae9c056a') in 0.038033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour1/NoOutline/120x80_gifs/__CrouchAll.gif
+  artifactKey: Guid(2220b8086ca9e434e9ebe60d374ae5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour1/NoOutline/120x80_gifs/__CrouchAll.gif using Guid(2220b8086ca9e434e9ebe60d374ae5f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f930e40a53e1420edff50661614ce06') in 0.050485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour1/NoOutline/120x80_gifs/__Attack2NoMovement.gif
+  artifactKey: Guid(78eaa7a26fa5e3849acacf82e8baf5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour1/NoOutline/120x80_gifs/__Attack2NoMovement.gif using Guid(78eaa7a26fa5e3849acacf82e8baf5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8925696717318e2f1c3dec63b1f3fb') in 0.153780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__CrouchAll.gif
+  artifactKey: Guid(be4bf37aa0605384b8fbdcb2edc0ed18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__CrouchAll.gif using Guid(be4bf37aa0605384b8fbdcb2edc0ed18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61230312006d8a315d6cf34ffe4b7b6') in 0.027219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__Dash.gif
+  artifactKey: Guid(5dba9e8b134c7d5448e5d101a13e0066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__Dash.gif using Guid(5dba9e8b134c7d5448e5d101a13e0066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76fda7cd6762b87d42f286f5b356c651') in 0.039533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour2/NoOutline/120x80_gifs/__Attack2.gif
+  artifactKey: Guid(b878b5e00e4bb684494c7a5b12588cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour2/NoOutline/120x80_gifs/__Attack2.gif using Guid(b878b5e00e4bb684494c7a5b12588cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6deca0e1b16bbf059c63cb30b445d50d') in 0.042227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__Attack2.gif
+  artifactKey: Guid(27e7f79a09ff4c344a75699d84fc0b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__Attack2.gif using Guid(27e7f79a09ff4c344a75699d84fc0b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b3ed9e5e29747d21ca956212e283af') in 0.040539 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour1/NoOutline/120x80_gifs/__Attack.gif
+  artifactKey: Guid(1319526c913741045b01261d4643cf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour1/NoOutline/120x80_gifs/__Attack.gif using Guid(1319526c913741045b01261d4643cf9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ff60a867b8d682cf80de3c82aaec4c4') in 0.036867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__Attack.gif
+  artifactKey: Guid(066014ba6a8d57845b2ed4f7bf91cbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__Attack.gif using Guid(066014ba6a8d57845b2ed4f7bf91cbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf3ca1cd8cb488059220a4ac07cec4cb') in 0.039389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__AttackCombo2hit.gif
+  artifactKey: Guid(7a5e9e08bb0ad854688c7f3a0f66b1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__AttackCombo2hit.gif using Guid(7a5e9e08bb0ad854688c7f3a0f66b1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3592a776ed13e8c53dda40ce118f5f0') in 0.092705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__Attack2.gif
+  artifactKey: Guid(4cb5f6b65fd88bd418c39dd866bba634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__Attack2.gif using Guid(4cb5f6b65fd88bd418c39dd866bba634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9e6349bda7739c2089c5eb1bbb5f09') in 0.049831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__AttackComboNoMovement.gif
+  artifactKey: Guid(07003c72fb198c64e9beba8e5c267cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__AttackComboNoMovement.gif using Guid(07003c72fb198c64e9beba8e5c267cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6fcc80543999321bac675cdc742430') in 0.028564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png
+  artifactKey: Guid(71ebafeef3c03457483266a33ab2b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png using Guid(71ebafeef3c03457483266a33ab2b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0765ecebba42466cd9ccc738748ae7d5') in 0.098296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour2/NoOutline/120x80_gifs/__CrouchAttack.gif
+  artifactKey: Guid(f9cf434606879cd49baf28f6a23248e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour2/NoOutline/120x80_gifs/__CrouchAttack.gif using Guid(f9cf434606879cd49baf28f6a23248e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8543662b568fdb601e3b61f69be74ac0') in 0.041818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__Crouch.gif
+  artifactKey: Guid(9f43165369c89c146993d83dcb42a7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__Crouch.gif using Guid(9f43165369c89c146993d83dcb42a7a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b201cf6ee7dc3e0ae61abb46669ea8') in 0.046827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__Dash.gif
+  artifactKey: Guid(f9e6139cd9f383f4499506b04714d72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__Dash.gif using Guid(f9e6139cd9f383f4499506b04714d72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20826df58f1c05deeeba809fb000e34e') in 0.086451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__CrouchAttack.gif
+  artifactKey: Guid(175d5a993b62b8d4f8b45fffb100c6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__CrouchAttack.gif using Guid(175d5a993b62b8d4f8b45fffb100c6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0064890cd6eb16792dde662a9c3002ca') in 0.035638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__CrouchWalk.gif
+  artifactKey: Guid(5cdf6a9c377154a4f8c0f91f4ddcf77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour2/Outline/120x80_gifs/__CrouchWalk.gif using Guid(5cdf6a9c377154a4f8c0f91f4ddcf77a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c001b93a84d37d06100772fa55d2f90') in 0.040179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__AttackNoMovement.gif
+  artifactKey: Guid(923b3e4f5630b9044a506d9070436b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__AttackNoMovement.gif using Guid(923b3e4f5630b9044a506d9070436b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e0996378034cfc41b93c3497d43a79') in 0.069269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour1/NoOutline/120x80_gifs/__AttackCombo2hit.gif
+  artifactKey: Guid(3a87913a372427b43a1c4bc843bbb160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour1/NoOutline/120x80_gifs/__AttackCombo2hit.gif using Guid(3a87913a372427b43a1c4bc843bbb160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d354f697f229bda0517151635b082d1') in 0.027533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__CrouchTransition.gif
+  artifactKey: Guid(dba674ed94c34fa45922f924a1c4d2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__CrouchTransition.gif using Guid(dba674ed94c34fa45922f924a1c4d2b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0ec5e4b6870f81bf54a188e0ed7f09') in 0.034337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour1/NoOutline/120x80_gifs/__Crouch.gif
+  artifactKey: Guid(92e15d7f707b4cc4d901416f5080f714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour1/NoOutline/120x80_gifs/__Crouch.gif using Guid(92e15d7f707b4cc4d901416f5080f714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272c5d22a634b058760f474af51b551c') in 0.043148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__Crouch.gif
+  artifactKey: Guid(d2f411fb231e2a941acf96eca39ebace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__Crouch.gif using Guid(d2f411fb231e2a941acf96eca39ebace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8568ef1a81cd2ed6aca6ff49355e2814') in 0.037315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__CrouchAll.gif
+  artifactKey: Guid(e35d092a3e36c9945a08e8690b294a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__CrouchAll.gif using Guid(e35d092a3e36c9945a08e8690b294a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6e9a1b6183269cb1b631272e1f1930') in 0.097042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour1/NoOutline/120x80_gifs/__CrouchAttack.gif
+  artifactKey: Guid(2a0ff7fd9ea67424caef9543c485725e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour1/NoOutline/120x80_gifs/__CrouchAttack.gif using Guid(2a0ff7fd9ea67424caef9543c485725e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ede560114023a0840fd57bfd5b1afb4c') in 0.039198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__AttackComboNoMovement.gif
+  artifactKey: Guid(a4202da3d004a68468fcad2acf656ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour1/Outline/120x80_gifs/__AttackComboNoMovement.gif using Guid(a4202da3d004a68468fcad2acf656ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e830ea0594f1b7236d91c0813f0961') in 0.039851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/OnlineAssets/freeknight/Colour2/NoOutline/120x80_gifs/__CrouchWalk.gif
+  artifactKey: Guid(93f6636d169c38a4bb00e73e3105eedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OnlineAssets/freeknight/Colour2/NoOutline/120x80_gifs/__CrouchWalk.gif using Guid(93f6636d169c38a4bb00e73e3105eedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b456ec7f2574600f361674e40b1b7f82') in 0.086808 seconds 

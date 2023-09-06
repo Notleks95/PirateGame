@@ -11,17 +11,14 @@ public class EnemyScript : MonoBehaviour
     public float maxSpeed = 3f;
     public float walkStopRate = 0.05f;
     public GameObject coinPrefab;
-
     public DetectionZone attackZone;
     public DetectionZone cliffDetectionZone;
-
     Rigidbody2D rb;
     TouchingDirections touchingDirections;
     Animator animator;
     Damageable damageable;
     
     public enum WalkableDirection {Right, Left}
-
     private WalkableDirection _walkDirection;
     private Vector2 walkDirectionVector = Vector2.right;
 
@@ -35,9 +32,8 @@ public class EnemyScript : MonoBehaviour
         {
             if(_walkDirection != value)
             {
-                //direction flipped
+                //Direction flipped
                 gameObject.transform.localScale = new Vector2(gameObject.transform.localScale.x * -1, gameObject.transform.localScale.y);
-
                 if(value == WalkableDirection.Right)
                 {
                     walkDirectionVector = Vector2.right;
@@ -46,9 +42,7 @@ public class EnemyScript : MonoBehaviour
                 {
                     walkDirectionVector = Vector2.left;
                 }
-
             }
-            
             _walkDirection = value;
         }
     }
@@ -94,7 +88,6 @@ public class EnemyScript : MonoBehaviour
         touchingDirections = GetComponent<TouchingDirections>();
         animator = GetComponent<Animator>();
         damageable = GetComponent<Damageable>();
-
     }
 
     private void OnEnable()
@@ -102,7 +95,6 @@ public class EnemyScript : MonoBehaviour
         damageable.damageableDeath.AddListener(OnDeath);
     }
 
-    // Update is called once per frame
     void Update()
     {
         HasTarget = attackZone.detectedColliders.Count > 0;
@@ -111,9 +103,7 @@ public class EnemyScript : MonoBehaviour
         {
             AttackCooldown -= Time.deltaTime;
         }
-            
     }
-
 
     private void FixedUpdate()
     {
@@ -121,7 +111,6 @@ public class EnemyScript : MonoBehaviour
         {
             FlipDirection();
         }
-
         if(!damageable.LockVelocity)
         {
             if (CanMove)
@@ -132,8 +121,7 @@ public class EnemyScript : MonoBehaviour
             {
                 rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, walkStopRate), rb.velocity.y);
             }
-        }
-           
+        } 
     }
 
     private void FlipDirection()
@@ -168,11 +156,6 @@ public class EnemyScript : MonoBehaviour
     public void OnDeath()
     {
         Vector3 coinposition = transform.position;
-
-        //coin appears in place
         Instantiate(coinPrefab, coinposition, Quaternion.identity);
-
     }
-
-
 }

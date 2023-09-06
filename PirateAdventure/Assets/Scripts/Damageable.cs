@@ -8,11 +8,9 @@ public class Damageable : MonoBehaviour
     public UnityEvent<int, Vector2> damageableHit;
     public UnityEvent damageableDeath;
     public UnityEvent<int, int> healthChange;
-    
     Animator animator;
 
     public int _maxHealth = 100;
-
     public int MaxHealth
     {
         get
@@ -27,7 +25,6 @@ public class Damageable : MonoBehaviour
 
     [SerializeField]
     private int _health = 100;
-    
     public int Health
     {
         get
@@ -48,16 +45,12 @@ public class Damageable : MonoBehaviour
         }
     }
 
-
     [SerializeField]
     private bool _isAlive = true;
-
     [SerializeField]
     private bool _isDead = true;
-
     [SerializeField]
     private bool isInvincible = false;
-
 
     private float timeSinceHit = 0;
     public float invincibilityTime = 0.25f;
@@ -73,7 +66,6 @@ public class Damageable : MonoBehaviour
             _isAlive = value;
             animator.SetBool(AnimationsStrings.isAlive, value);
             Debug.Log("IsAlive set " + value);
-
             if(value == false)
             {
                 damageableDeath.Invoke();
@@ -92,10 +84,8 @@ public class Damageable : MonoBehaviour
             _isDead = value;
             animator.SetBool(AnimationsStrings.isDead, value);
             Debug.Log("IsDead set " + value);
-
         }
     }
-
     public bool LockVelocity
     {
         get
@@ -122,29 +112,23 @@ public class Damageable : MonoBehaviour
                 isInvincible = false;
                 timeSinceHit = 0;
             }
-
             timeSinceHit += Time.deltaTime;
-            
         }
     }
 
-    //returns if damageable took damage or not
     public bool Hit(int damage, Vector2 knockback)
     {
         if(IsAlive && !isInvincible)
         {
             Health -= damage;
             isInvincible = true;
-
-            //notify other suscribed components that damageable was hit to handle the knockback and such
+            //Notify other suscribed components that damageable was hit
             animator.SetTrigger(AnimationsStrings.lockVelocity);
             LockVelocity = true;
             damageableHit?.Invoke(damage, knockback);
             CharacterEvents.characterDamaged.Invoke(gameObject, damage);
-
             return true;
         }
-
         return false;
     }
 
